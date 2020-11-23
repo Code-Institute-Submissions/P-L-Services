@@ -21,9 +21,9 @@ The website features at a glance information on any issues currently affecting l
     - [User Stories](#User-Stories)
     - [User Considerations](#User-considerations)
     - [Wireframe diagrams](#Wireframe-diagrams)
-        - [Home](#)
-        - [Gallery](#)
-        - [Contact Us](#)
+        - [Home Page](#Home-page)
+        - [Gallery Page](#Gallery-page)
+        - [Contact Us Page](#Contact-Us-page)
 
     - [Design Considerations](#Design-considerations)
         - [Colours](#Colours)
@@ -123,15 +123,20 @@ Consideration has been given to the following when developing website which meet
 
 ## Wireframe diagrams
 
-### Home
+### Home Page
+
  - [Mobile view](assets/wireframes/HomePageMobileView.png)
  - [Tablet view](assets/wireframes/HomePageTabletView.png)
  - [Desktop view](assets/wireframes/HomePageDesktopView.png) 
-### Gallery
+
+### Gallery Page
+
  - [Mobile view](assets/wireframes/GalleryPageMobileView.png)
  - [Tablet view](assets/wireframes/GalleryPageTabletView.png)
- - [Desktop view](assets/wireframes/GalleryPageDesktopView.png) 
-### Contact Us
+ - [Desktop view](assets/wireframes/GalleryPageDesktopView.png)
+
+### Contact Us Page
+
  - [Mobile view](assets/wireframes/ContactUsPageMobileView.png)
  - [Tablet view](assets/wireframes/ContactUsPageTabletView.png)
  - [Desktop view](assets/wireframes/ContactUsPageDesktopView) 
@@ -158,6 +163,8 @@ The combination has been checked on Adobe Colour; no potential conflicts have be
 -  The sans serif font Open Sans has been chosen for the body text as it compliments Exo 2; it also has excellent legibility having been optimised for both web and mobile interfaces.  It is available on Google fonts and if it fails will be replaced with a sans serif font within the browser.
 
 ### Icons
+Font Awesome icons from medical and science categories will be used throughout this website.
+
 ---
 
 # **Features**
