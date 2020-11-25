@@ -125,21 +125,21 @@ Consideration has been given to the following when developing website which meet
 
 ### Home Page
 
- - [Mobile view](assets/wireframes/HomePageMobileView.png)
- - [Tablet view](assets/wireframes/HomePageTabletView.png)
- - [Desktop view](assets/wireframes/HomePageDesktopView.png) 
+ - [Mobile view](documentation/wireframes/HomePageMobileView.png)
+ - [Tablet view](documentation/wireframes/HomePageTabletView.png)
+ - [Desktop view](documentation/wireframes/HomePageDesktopView.png) 
 
 ### Gallery Page
 
- - [Mobile view](assets/wireframes/GalleryPageMobileView.png)
- - [Tablet view](assets/wireframes/GalleryPageTabletView.png)
- - [Desktop view](assets/wireframes/GalleryPageDesktopView.png)
+ - [Mobile view](documentation/wireframes/GalleryPageMobileView.png)
+ - [Tablet view](documentation/wireframes/GalleryPageTabletView.png)
+ - [Desktop view](documentation/wireframes/GalleryPageDesktopView.png)
 
 ### Contact Us Page
 
- - [Mobile view](assets/wireframes/ContactUsPageMobileView.png)
- - [Tablet view](assets/wireframes/ContactUsPageTabletView.png)
- - [Desktop view](assets/wireframes/ContactUsPageDesktopView) 
+ - [Mobile view](documentation/wireframes/ContactUsPageMobileView.png)
+ - [Tablet view](documentation/wireframes/ContactUsPageTabletView.png)
+ - [Desktop view](documentation/wireframes/ContactUsPageDesktopView.png) 
 
 ## Design Considerations
 
