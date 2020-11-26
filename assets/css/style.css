@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@300;400;500;600;700;800;900&family=Open+Sans:wght@300;400;600;700;800&display=swap');
 
-/*--General Styling--*/
+*--General Styling--*/
 
 body {
     font-family: 'Open Sans', sans-serif;
@@ -8,14 +8,17 @@ body {
 }
 
 /*--Heading--*/
-header {margin: 0}
+header {margin: 0;
+height: 120px;
+background-color: #f2f2f2;
+border: 1px solid #545454}
 
 #header-logo{
     float: left;
-    margin-left: 25px;
-    margin-top: 5px;
+    margin-left: 20px;
+    margin-top: 10px;
+    border: 1px solid #545454;
 }
-
 #navbar-list {
     float: right;
     list-style: none;
@@ -23,7 +26,7 @@ header {margin: 0}
     flex-direction: reverse;
     }
 
-.navbar-list-item{
+.navbar-item{
     margin: 55px 50px 0px 50px;
 }
 
@@ -33,4 +36,84 @@ header {margin: 0}
     color: inherit;
     text-transform: uppercase;
     letter-spacing: 3px;
+}
+
+/*--Hero section--*/
+
+#hero-section{
+    margin-top: 10px;
+    max-height: 600px;
+    background-color: #545454;
+    border: 1px solid #000;
+}
+
+.hero-image {
+    clear: left;
+    margin-top: 5px;
+    width: 100%;
+    height: 600px;
+}
+
+/*--Lab Info section--*/
+
+#lab-info-section{
+    margin-top: 10px;
+    max-height: 600px;
+    background-color: #F2F2F2;
+    border: 1px solid #545454;
+}
+
+.lab-info-heading {
+    clear: left;
+    margin-top: 5px;
+    width: 100%;
+    height: 600px;
+}
+
+/*--Dept1 section--*/
+
+#dept1-section{
+    margin-top: 10px;
+    max-height: 600px;
+    background-color: #F2F2F2;
+    border: 1px solid #545454;
+}
+
+.dept1-heading {
+    clear: left;
+    margin-top: 5px;
+    width: 100%;
+    height: 600px;
+}
+
+/*--Dept2 section--*/
+
+#dept2-section{
+    margin-top: 10px;
+    max-height: 600px;
+    background-color: #F2F2F2;
+    border: 1px solid #545454;
+}
+
+.dept2-heading {
+    clear: left;
+    margin-top: 5px;
+    width: 100%;
+    height: 600px;
+}
+
+/*--Dept3 section--*/
+
+#dept3-section{
+    margin-top: 10px;
+    max-height: 600px;
+    background-color: #F2F2F2;
+    border: 1px solid #545454;
+}
+
+.dept3-heading {
+    clear: left;
+    margin-top: 5px;
+    width: 100%;
+    height: 600px;
 }
