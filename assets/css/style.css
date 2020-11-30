@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@300;400;500;600;700;800;900&family=Open+Sans:wght@300;400;600;700;800&display=swap');
 
-*--General Styling--*/
+/*--General Styling--*/
 
 body {
     font-family: 'Open Sans', sans-serif;
@@ -9,6 +9,8 @@ body {
 
 /*--Heading--*/
 header {margin: 0;
+position: relative;
+z-index: 1;
 height: 120px;
 background-color: #f2f2f2;
 border: 1px solid #545454}
@@ -70,6 +72,10 @@ border: 1px solid #545454}
     height: 600px;
 }
 
+.lab-info-heading i{
+    color: #8B518C;
+}
+
 /*--Dept1 section--*/
 
 #dept1-section{
@@ -80,7 +86,6 @@ border: 1px solid #545454}
 }
 
 .dept1-heading {
-    clear: left;
     margin-top: 5px;
     width: 100%;
     height: 600px;
@@ -96,7 +101,6 @@ border: 1px solid #545454}
 }
 
 .dept2-heading {
-    clear: left;
     margin-top: 5px;
     width: 100%;
     height: 600px;
@@ -112,8 +116,27 @@ border: 1px solid #545454}
 }
 
 .dept3-heading {
-    clear: left;
     margin-top: 5px;
     width: 100%;
     height: 600px;
+}
+
+/*--Footer section--*/
+
+#footer-list {
+    list-style: none;
+    display: flex;
+    flex-direction: reverse;
+    }
+
+.footer-item{
+    margin: 25px 50px 0px 50px;
+}
+
+.footer-list-marker {margin-top: 25px;}
+
+#footer-list a{
+    color: inherit;
+    text-transform: uppercase;
+    letter-spacing: 3px;
 }
