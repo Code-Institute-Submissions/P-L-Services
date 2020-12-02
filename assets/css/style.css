@@ -43,17 +43,18 @@ border: 1px solid #545454}
 /*--Hero section--*/
 
 #hero-section{
-    margin-top: 10px;
-    max-height: 600px;
-    background-color: #545454;
-    border: 1px solid #000;
-}
+    height: 700px;
+    width: 100vw;
+    overflow: hidden;
+    position: relative;
+    }
 
 .hero-image {
-    clear: left;
-    margin-top: 5px;
-    width: 100%;
-    height: 600px;
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/assets/images/herocolour.jpg");
+    background-size: cover;
+    background-position:center;
 }
 
 /*--Lab Info section--*/
@@ -123,20 +124,30 @@ border: 1px solid #545454}
 
 /*--Footer section--*/
 
-#footer-list {
+.footer-list {
     list-style: none;
     display: flex;
     flex-direction: reverse;
     }
 
-.footer-item{
-    margin: 25px 50px 0px 50px;
-}
-
 .footer-list-marker {margin-top: 25px;}
 
-#footer-list a{
+.footer-list a{
     color: inherit;
     text-transform: uppercase;
     letter-spacing: 3px;
+}
+.footer-item{
+    margin: 25px 50px 0px 50px;
+}
+.footer-media{
+    position: absolute;
+    width: 100%;
+    left: 0px;
+}
+
+.footer-org{
+    position: absolute;
+    width: 100%;
+    right: 0px;    
 }
