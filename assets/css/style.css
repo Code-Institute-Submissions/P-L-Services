@@ -60,10 +60,14 @@ border: 1px solid #545454}
 /*--Lab Info section--*/
 
 #lab-info-section{
-    margin-top: 10px;
+    margin-top: -150px;
+    max-width: 75vw;
+    margin-left: 12.5vw;
     max-height: 600px;
     background-color: #F2F2F2;
     border: 1px solid #545454;
+    position: relative;
+    z-index: 5;
 }
 
 .lab-info-heading {
@@ -128,6 +132,7 @@ border: 1px solid #545454}
     list-style: none;
     display: flex;
     flex-direction: reverse;
+    position: relative;
     }
 
 .footer-list-marker {margin-top: 25px;}
@@ -139,6 +144,12 @@ border: 1px solid #545454}
 }
 .footer-item{
     margin: 25px 50px 0px 50px;
+}
+
+.footer-item-right{
+    position: absolute;
+    right: 50px;
+    margin-top: 25px;
 }
 .footer-media{
     position: absolute;
