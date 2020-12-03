@@ -5,22 +5,25 @@
 body {
     font-family: 'Open Sans', sans-serif;
     color: #545454;
-}
+    }
 
 /*--Heading--*/
 header {margin: 0;
 position: relative;
 z-index: 1;
 height: 120px;
+font-family: 'Exo 2', sans-serif;
 background-color: #f2f2f2;
-border: 1px solid #545454}
+border: 1px solid #545454
+}
 
 #header-logo{
     float: left;
     margin-left: 20px;
     margin-top: 10px;
     border: 1px solid #545454;
-}
+    }
+
 #navbar-list {
     float: right;
     list-style: none;
@@ -32,18 +35,22 @@ border: 1px solid #545454}
     margin: 55px 50px 0px 50px;
 }
 
+.navbar-item i{
+    margin-right: 5px;
+}
 .navbar-list-marker {margin-top: 55px;}
 
 #navbar-list a {
     color: inherit;
     text-transform: uppercase;
     letter-spacing: 3px;
+    font-weight: 500;
 }
 
 /*--Hero section--*/
 
 #hero-section{
-    height: 700px;
+    height: 100vh;
     width: 100vw;
     overflow: hidden;
     position: relative;
@@ -52,15 +59,40 @@ border: 1px solid #545454}
 .hero-image {
     width: 100vw;
     height: 100vh;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/assets/images/herocolour.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.2)), url("/assets/images/heroalt.jpeg");
     background-size: cover;
     background-position:center;
 }
 
+.hero-text{
+    width: 25%;
+    height:50%;
+    position: absolute;
+    top: 25%;
+    right: 10%;
+
+    padding-top: 25px;
+    background-color: #5B89A675;    
+    text-align: right;
+}
+
+.hero-text-title{
+    font-family: 'Exo 2', sans-serif;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-bottom: 25px;
+    color: #f2f2f2;
+}
+.hero-text h2{
+    color: #545454;
+    font-size: 225%;
+}
+   
+
 /*--Lab Info section--*/
 
 #lab-info-section{
-    margin-top: -150px;
+    margin-top: -200px;
     max-width: 75vw;
     margin-left: 12.5vw;
     max-height: 600px;
@@ -127,6 +159,8 @@ border: 1px solid #545454}
 }
 
 /*--Footer section--*/
+
+footer{ font-family: 'Exo 2', sans-serif;}
 
 .footer-list {
     list-style: none;
