@@ -2,241 +2,274 @@
 
 /*--General Styling--*/
 
-body {
+    body {
     font-family: 'Open Sans', sans-serif;
     color: #545454;
     }
 
 /*--Heading--*/
-header {margin: 0;
-position: relative;
-z-index: 1;
-height: 120px;
-font-family: 'Exo 2', sans-serif;
-background-color: #f2f2f2;
-border: 1px solid #545454
-}
-
-#header-logo{
-    float: left;
-    margin-left: 20px;
-    margin-top: 10px;
-    border: 1px solid #545454;
+    header {margin: 0;
+    position: relative;
+    z-index: 1;
+    height: 120px;
+    font-family: 'Exo 2', sans-serif;
+    background-color: #f2f2f2;
+    border: 1px solid #545454
     }
 
-#navbar-list {
-    float: right;
-    list-style: none;
-    display: flex;
-    flex-direction: reverse;
+    #header-logo{
+        float: left;
+        margin-left: 20px;
+        margin-top: 10px;
+        border: 1px solid #545454;
+        }
+
+    #navbar-list {
+        float: right;
+        list-style: none;
+        display: flex;
+        flex-direction: reverse;
+        }
+
+    .navbar-item{
+        margin: 55px 50px 0px 50px;
     }
 
-.navbar-item{
-    margin: 55px 50px 0px 50px;
-}
+    .navbar-item i{
+        margin-right: 5px;
+    }
+    .navbar-list-marker {margin-top: 55px;}
 
-.navbar-item i{
-    margin-right: 5px;
-}
-.navbar-list-marker {margin-top: 55px;}
-
-#navbar-list a {
-    color: inherit;
-    text-transform: uppercase;
-    letter-spacing: 3px;
-    font-weight: 500;
-}
+    #navbar-list a {
+        color: inherit;
+        text-transform: uppercase;
+        letter-spacing: 3px;
+        font-weight: 500;
+    }
 
 /*--Hero section--*/
 
-#hero-section{
-    height: 100vh;
-    width: 100vw;
-    overflow: hidden;
-    position: relative;
+    #hero-section{
+        height: 100vh;
+        width: 100vw;
+        overflow: hidden;
+        position: relative;
+        }
+
+    .hero-image {
+        width: 100vw;
+        height: 100vh;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.2)), url("/assets/images/heroalt.jpeg");
+        background-size: cover;
+        background-position:center;
     }
 
-.hero-image {
-    width: 100vw;
-    height: 100vh;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.2)), url("/assets/images/heroalt.jpeg");
-    background-size: cover;
-    background-position:center;
-}
+    .hero-text{
+        width: 25%;
+        height:50%;
+        position: absolute;
+        top: 25%;
+        right: 10%;
 
-.hero-text{
-    width: 25%;
-    height:50%;
-    position: absolute;
-    top: 25%;
-    right: 10%;
+        padding-top: 25px;
+        background-color: #5B89A675;    
+        text-align: right;
+    }
 
-    padding-top: 25px;
-    background-color: #5B89A675;    
-    text-align: right;
-}
-
-.hero-text-title{
-    font-family: 'Exo 2', sans-serif;
-    text-transform: uppercase;
-    font-weight: 600;
-    margin-bottom: 25px;
-    color: #f2f2f2;
-}
-.hero-text h2{
-    color: #545454;
-    font-size: 225%;
-}
+    .hero-text-title{
+        font-family: 'Exo 2', sans-serif;
+        text-transform: uppercase;
+        font-weight: 600;
+        margin-bottom: 25px;
+        color: #f2f2f2;
+    }
+    .hero-text h2{
+        color: #545454;
+        font-size: 225%;
+    }
    
 
 /*--Lab Info section--*/
 
-#lab-info-section{
-    margin-top: -200px;
-    max-width: 75vw;
-    margin-left: 12.5vw;
-    max-height: 600px;
-    background-color: #F2F2F2;
-    border: 1px solid #545454;
-    position: relative;
-    z-index: 5;
-}
+    #lab-info-section{
+        max-height: 600px;
+        background-color: #545454;
+        position: relative;
+        z-index: 5;
+    }
 
-.lab-info-heading {
-    clear: left;
-    margin-top: 5px;
-    width: 100%;
-    height: 600px;
-}
+    .lab-info-heading {
+        clear: left;
+        margin-top: 5px;
+        width: 100%;
+        height: 600px;
+    }
 
-.lab-info-heading i{
-    color: #8B518C;
-}
+    .lab-info-heading i{
+        color: #8B518C;
+    }
 
 /*--Clinical Biochemistry section--*/
 
-.clin-bio-section{
-    padding-top: 30px;
-    padding-bottom: 30px;
-    min-height: 300px;
-    background-color: #545454;
-}
-
-.clin-bio-section li {
-    font-family: 'Exo 2', sans-serif;
-    list-style: none;
-    margin:30px;
-}
-
-.clin-bio-section li .btn-light{
-    background-color: #f2f2f2;
-}
-
-.clin-bio-section li i{
-    color:#d99e89;
-    padding-right: 10px;
-}
-
-.clin-bio-section h2{
-    padding-top: 30px;
-    color: #f2f2f2;
-    font-family: 'Exo 2', sans-serif;
+    .clin-bio-section{
+        padding-top: 30px;
+        padding-bottom: 30px;
+        min-height: 300px;
+        background-color: #D99E89;
     }
 
-.clin-bio-section p{
-    color:#f2f2f2;
-    margin-top: 20px;
-    max-width: 75%;
-}
+    .clin-bio-section li {
+        font-family: 'Exo 2', sans-serif;
+        list-style: none;
+        margin:30px;
+    }
+
+    .clin-bio-section li .btn-light{
+        background-color: #f2f2f2;
+    }
+
+    .clin-bio-section li i{
+        color:#5B89A6;
+        padding-right: 10px;
+        
+    }
+
+    .clin-bio-section button{
+        font-size: 100%;    
+    }
+
+    .clin-bio-section h2{
+        padding-top: 30px;
+        padding-bottom:30px;
+        color: #f2f2f2;
+        font-family: 'Exo 2', sans-serif;
+        }
+
+    .clin-bio-section p{
+        color:#f2f2f2;
+        margin-top: 20px;
+
+    }
 
 
 /*--Haematology section--*/
 
-.haem-section{
-    padding-top: 30px;
-    padding-bottom:30px;
-    min-height: 300px;
-    background-color: #8B518C;
-}
-
-.haem-section li {
-    font-family: 'Exo 2', sans-serif;
-    list-style: none;
-    margin:30px;
-   color: #f2f2f2;
-}
-
-.haem-section li .btn-light{
-    background-color: #545454;
-}
-
-.haem-section li i{
-    color:#f2f2f2;
-    padding-right: 10px;
-}
-
-.haem-section h2{
-    padding-top: 30px;
-    color: #f2f2f2;
-    font-family: 'Exo 2', sans-serif;
+    .haem-section{
+        padding-top: 30px;
+        padding-bottom:30px;
+        min-height: 300px;
+        background-color: #8B518C;
     }
 
-.haem-section p{
-    margin-top: 20px;
-    color:#f2f2f2;
-    max-width: 75%;
-}
+    .haem-section li {
+        font-family: 'Exo 2', sans-serif;
+        list-style: none;
+        margin: 30px;
+    }
 
-/*--Dept3 section--*/
+    .haem-section li .btn-light{
+        background-color: #f2f2f2;
+    }
 
-#dept3-section{
-    margin-top: 10px;
-    max-height: 600px;
-    background-color: #F2F2F2;
-    border: 1px solid #545454;
-}
+    .haem-section li i{
+        color:#5B89A6;
+        padding-right: 10px;
+    }
 
-.dept3-heading {
-    margin-top: 5px;
-    width: 100%;
-    height: 600px;
-}
+    .haem-section button{
+        font-size: 100%;    
+    }
+    .haem-section h2{
+        padding-top: 30px;
+        padding-bottom:30px;
+        margin: auto;
+        color: #f2f2f2;
+        font-family: 'Exo 2', sans-serif;
+        }
+
+    .haem-section p{
+        margin-top: 20px;
+        margin: auto;
+        color:#f2f2f2;
+    }
+
+/*--Microbiology section--*/
+
+    .micro-section{
+            padding-top: 30px;
+            padding-bottom:30px;
+            min-height: 300px;
+            background-color: #033859;
+        }
+
+        .micro-section li {
+            font-family: 'Exo 2', sans-serif;
+            list-style: none;
+            margin: 30px;
+        }
+
+        .micro-section li .btn-light{
+            background-color: #f2f2f2;
+        }
+
+        .micro-section li i{
+            color:#5B89A6;
+            padding-right: 10px;
+        }
+
+        .micro-section button{
+            font-size: 100%;    
+        }
+
+        .micro-section h2{
+            padding-top: 30px;
+            padding-bottom:30px;
+            margin: auto;
+            color: #f2f2f2;
+            font-family: 'Exo 2', sans-serif;
+            }
+
+        .micro-section p{
+            margin-top: 20px;
+            margin: auto;
+            color:#f2f2f2;
+        }
 
 /*--Footer section--*/
 
-footer{ font-family: 'Exo 2', sans-serif;}
+    footer{ font-family: 'Exo 2', sans-serif;}
 
-.footer-list {
-    list-style: none;
-    display: flex;
-    flex-direction: reverse;
-    position: relative;
+    .footer-list {
+        list-style: none;
+        display: flex;
+        flex-direction: reverse;
+        position: relative;
+        }
+
+    .footer-list-marker {margin-top: 25px;}
+
+    .footer-list a{
+        color: inherit;
+        text-transform: uppercase;
+        letter-spacing: 3px;
+    }
+    .footer-item{
+        margin: 25px 50px 0px 50px;
     }
 
-.footer-list-marker {margin-top: 25px;}
+    .footer-item-right{
+        position: absolute;
+        right: 50px;
+        margin-top: 25px;
+    }
+    .footer-media{
+        position: absolute;
+        width: 100%;
+        left: 0px;
+    }
 
-.footer-list a{
-    color: inherit;
-    text-transform: uppercase;
-    letter-spacing: 3px;
-}
-.footer-item{
-    margin: 25px 50px 0px 50px;
-}
-
-.footer-item-right{
-    position: absolute;
-    right: 50px;
-    margin-top: 25px;
-}
-.footer-media{
-    position: absolute;
-    width: 100%;
-    left: 0px;
-}
-
-.footer-org{
-    position: absolute;
-    width: 100%;
-    right: 0px;    
-}
+    .footer-org{
+        position: absolute;
+        width: 100%;
+        right: 0px;    
+    }
