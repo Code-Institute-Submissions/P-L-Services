@@ -4,6 +4,7 @@
     * {
         margin: 0;
         padding: 0;
+        
     }
 
     body {
@@ -11,8 +12,9 @@
     color: #545454;
     }
 
-/*--Heading--*/
-   nav {
+/*--Navbar--*/
+   
+nav {
        margin: 0;
         min-height: 15vh;
         font-family: 'Exo 2', sans-serif;
@@ -67,13 +69,16 @@
     }
 
     .hero-text{
-        width: 25%;
-        height:50%;
+        min-width: 20vw;
+        min-height:30vh;
+
         position: absolute;
         top: 25%;
-        right: 10%;
+        right: 5%;
 
+        margin-left: 10px;
         padding-top: 25px;
+
         background-color: #5B89A675;    
         text-align: right;
     }
@@ -82,14 +87,31 @@
         font-family: 'Exo 2', sans-serif;
         text-transform: uppercase;
         font-weight: 600;
-        margin-bottom: 25px;
         color: #f2f2f2;
+
+        margin-bottom: 5px;
     }
     .hero-text h2{
         color: #545454;
-        font-size: 225%;
     }
-   
+
+   @media screen and (min-width: 577px) {
+       .hero-text-title {
+           font-size: 45px;
+       }
+       .hero-text h2{
+           font-size: 40px;
+       }
+   }
+
+   @media screen and (max-width: 576px) {
+       .hero-text-title {
+           font-size: 25px;
+       }
+       .hero-text h2{
+           font-size: 20px;
+       }
+   }
 
 /*--Lab Info section--*/
 
