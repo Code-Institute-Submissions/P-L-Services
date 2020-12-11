@@ -89,51 +89,13 @@ nav {
         font-weight: 600;
         color: #f2f2f2;
 
-        margin-bottom: 5px;
+        margin-bottom: 50px;
     }
     .hero-text h2{
         color: #545454;
     }
 
-   @media screen and (min-width: 577px) {
-       .hero-text-title {
-           font-size: 45px;
-       }
-       .hero-text h2{
-           font-size: 40px;
-       }
-   }
-
-   @media screen and (max-width: 576px) {
-       .hero-text-title {
-           font-size: 25px;
-       }
-       .hero-text h2{
-           font-size: 20px;
-       }
-   }
-
-/*--Lab Info section--*/
-
-    #lab-info-section{
-        max-height: 600px;
-        background-color: #545454;
-        position: relative;
-        z-index: 5;
-    }
-
-    .lab-info-heading {
-        clear: left;
-        margin-top: 5px;
-        width: 100%;
-        height: 600px;
-    }
-
-    .lab-info-heading i{
-        color: #8B518C;
-    }
-
-/*--Clinical Biochemistry section--*/
+    /*--Clinical Biochemistry section--*/
 
     .clin-bio-section{
         padding-top: 30px;
@@ -150,6 +112,8 @@ nav {
 
     .clin-bio-section li .btn-light{
         background-color: #f2f2f2;
+        min-width:325px;
+        text-align: left;
     }
 
     .clin-bio-section li i{
@@ -167,12 +131,12 @@ nav {
         padding-bottom:30px;
         color: #f2f2f2;
         font-family: 'Exo 2', sans-serif;
+        text-align: center;
         }
 
     .clin-bio-section p{
         color:#f2f2f2;
-        margin-top: 20px;
-
+        margin-top: 10px;
     }
 
 
@@ -193,6 +157,8 @@ nav {
 
     .haem-section li .btn-light{
         background-color: #f2f2f2;
+        min-width: 325px;
+        text-align: left;
     }
 
     .haem-section li i{
@@ -209,6 +175,7 @@ nav {
         margin: auto;
         color: #f2f2f2;
         font-family: 'Exo 2', sans-serif;
+        text-align: center;
         }
 
     .haem-section p{
@@ -234,6 +201,8 @@ nav {
 
         .micro-section li .btn-light{
             background-color: #f2f2f2;
+            min-width: 325px;
+            text-align: left;
         }
 
         .micro-section li i{
@@ -251,6 +220,7 @@ nav {
             margin: auto;
             color: #f2f2f2;
             font-family: 'Exo 2', sans-serif;
+            text-align: center;
             }
 
         .micro-section p{
@@ -296,4 +266,74 @@ nav {
         position: absolute;
         width: 100%;
         right: 0px;    
+    }
+
+/*--Media Queries--*/
+
+     @media screen and (min-width: 577px) {
+       .hero-text-title {
+           font-size: 45px;
+       }
+       .hero-text h2{
+           font-size: 40px;
+       }
+   }
+
+   @media screen and (max-width: 576px) {
+       .hero-text-title {
+           font-size: 30px;
+           text-align: center;
+           margin-bottom: 25px;
+        }
+       .hero-text h2{
+        padding-top: 25px;    
+        font-size: 25px;
+        text-align: center;
+        }
+       .hero-text{
+           background-color: #5B89A6;
+           top:15%     ;
+           right:15%;
+        }
+       #hero-section{
+           background-color: #545454;
+           height:50vh;
+        }
+       .clin-bio-section li i{
+        color:#5B89A6;
+        padding-right: 5px;
+        }
+        .list-btn{
+            padding: 2px;
+        }
+        .clin-bio-section li .btn-light{
+        background-color: #f2f2f2;
+        min-width:150px;
+        min-height:75px;
+        text-align: center;
+        font-size: 90%;
+        }
+        .clin-bio-section p{
+        text-align: justify;
+        }
+        .haem-section li .btn-light{
+        background-color: #f2f2f2;
+        min-width:150px;
+        min-height:75px;
+        text-align: center;
+        font-size: 90%;
+        }
+        .haem-section p{
+        text-align: justify;
+        }
+        .micro-section li .btn-light{
+        background-color: #f2f2f2;
+        min-width:150px;
+        min-height:75px;
+        text-align: center;
+        font-size: 90%;
+        }
+        .micro-section p{
+        text-align: justify;   
+        }
     }
