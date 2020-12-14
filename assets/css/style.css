@@ -287,6 +287,14 @@ nav {
 
     /*--Mobile sm breakpoint--*/
     @media screen and (max-width: 576px) {
+        .navbar-nav{
+            float: right;
+            text-align: right;            
+            }
+        .nav-item{
+            padding-right: 0;
+            margin-right: 0;
+            }
         .hero-text-title {
             font-size: 30px;
             text-align: center;
