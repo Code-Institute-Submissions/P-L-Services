@@ -244,6 +244,19 @@ The following features will be added to the website in future releases:
 # **Credits**
 
 ## Images
+Hero image - Photo by Karolina Grabowska from Pexels (https://www.pexels.com/photo/close-up-view-of-two-specimens-4047150/)
+Gallery image - Photo by Karolina Grabowska from Pexels (https://www.pexels.com/photo/brown-glass-bottle-with-liquid-and-pipette-4021773/)
+Gallery image - Photo by ThisIsEngineering from Pexels (https://www.pexels.com/photo/scientist-testing-samples-3912368/)
+Gallery image - Photo by Chokniti Khongchum from Pexels (https://www.pexels.com/photo/shallow-focus-photography-of-microscope-2280547/)
+Gallery image - Photo by Edward Jenner from Pexels (https://www.pexels.com/photo/man-doing-a-sample-test-in-the-laboratory-4033148/)
+Gallery image - Photo by Polina Tankilevitch from Pexels (https://www.pexels.com/photo/scientist-in-laboratory-3735705/)
+Gallery image - Photo by CDC from Pexels (https://www.pexels.com/photo/person-doing-an-experiment-3992927/)
+Gallery image - Photo by Polina Tankilevitch from Pexels (https://www.pexels.com/photo/scientist-in-laboratory-3735752/)
+Gallery image - Photo by CDC from Pexels (https://www.pexels.com/photo/red-liquid-in-a-plastic-container-3993210/)
+Gallery image - Photo by Belova59 from Pixabay (https://pixabay.com/users/belova59-10750437/)
+Gallery image - Photo by Belova59 from Pixabay ("https://pixabay.com/users/belova59-10750437/)
+Gallery image - Photo by Belova59 from Pixabay ("https://pixabay.com/users/belova59-10750437/)
+Gallery image Photo by PublicDomainPictures from Pixabay ("https://pixabay.com/users/publicdomainpictures-14/)
 
 ## Content
 
