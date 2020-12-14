@@ -87,12 +87,14 @@ nav {
         font-family: 'Exo 2', sans-serif;
         text-transform: uppercase;
         font-weight: 600;
+        font-size: 45px;
         color: #f2f2f2;
 
         margin-bottom: 50px;
     }
     .hero-text h2{
         color: #545454;
+        font-size: 40px;
     }
 
     /*--Clinical Biochemistry section--*/
@@ -240,9 +242,19 @@ nav {
         position: relative;
         }
 
+    .footer-list-right {
+        list-style: none;
+        }
+
     .footer-list-marker {margin-top: 25px;}
 
     .footer-list a{
+        color: inherit;
+        text-transform: uppercase;
+        letter-spacing: 3px;
+    }
+
+    .footer-list-right a{
         color: inherit;
         text-transform: uppercase;
         letter-spacing: 3px;
@@ -270,70 +282,160 @@ nav {
 
 /*--Media Queries--*/
 
-     @media screen and (min-width: 577px) {
-       .hero-text-title {
-           font-size: 45px;
-       }
-       .hero-text h2{
-           font-size: 40px;
-       }
-   }
+    /*--Tablet md breakpoint--*/
+    
 
-   @media screen and (max-width: 576px) {
-       .hero-text-title {
-           font-size: 30px;
-           text-align: center;
-           margin-bottom: 25px;
-        }
-       .hero-text h2{
-        padding-top: 25px;    
-        font-size: 25px;
-        text-align: center;
-        }
-       .hero-text{
-           background-color: #5B89A6;
-           top:15%     ;
-           right:15%;
-        }
-       #hero-section{
-           background-color: #545454;
-           height:50vh;
-        }
-       .clin-bio-section li i{
-        color:#5B89A6;
-        padding-right: 5px;
-        }
+    /*--Mobile sm breakpoint--*/
+    @media screen and (max-width: 576px) {
+        .hero-text-title {
+            font-size: 30px;
+            text-align: center;
+            margin-bottom: 25px;
+            }
+        .hero-text h2{
+            padding-top: 25px;    
+            font-size: 25px;
+            text-align: center;
+            }
+
+        .hero-text{
+                background-color: #5B89A6;
+                top:15%;
+                margin-left: 5%;
+            }
+        #hero-section{
+            background-color: #545454;
+            height:50vh;
+            }
+        .clin-bio-section li i{
+            color:#5B89A6;
+            padding-right: 5px;
+            }
         .list-btn{
-            padding: 2px;
-        }
+                padding: 2px;
+            }
         .clin-bio-section li .btn-light{
-        background-color: #f2f2f2;
-        min-width:150px;
-        min-height:75px;
-        text-align: center;
-        font-size: 90%;
-        }
+            background-color: #f2f2f2;
+            min-width:100px;
+            min-height:100px;
+            text-align: center;
+            font-size: 80%;
+            }
         .clin-bio-section p{
-        text-align: justify;
-        }
+            text-align: justify;
+            }
         .haem-section li .btn-light{
-        background-color: #f2f2f2;
-        min-width:150px;
-        min-height:75px;
-        text-align: center;
-        font-size: 90%;
-        }
+            background-color: #f2f2f2;
+            min-width:100px;
+            min-height:100px;
+            text-align: center;
+            font-size: 80%;
+            }
         .haem-section p{
-        text-align: justify;
-        }
+            text-align: justify;
+            }
         .micro-section li .btn-light{
-        background-color: #f2f2f2;
-        min-width:150px;
-        min-height:75px;
-        text-align: center;
-        font-size: 90%;
-        }
+            background-color: #f2f2f2;
+            min-width:100px;
+            min-height:100px;
+            text-align: center;
+            font-size: 80%;
+            }
         .micro-section p{
-        text-align: justify;   
+            text-align: justify;   
+            }
+        .footer-list {
+            list-style: none;
+            display: inline-block;
+            position: relative;
+            }
+        .footer-list-right {
+            list-style: none;
+            }
         }
-    }
+
+           @media screen and (min-width: 576px) and (max-width: 768px) {
+            #hero-section{
+            height:50vh;
+            }
+            .clin-bio-section li .btn-light{
+            background-color:#f2f2f2;
+            min-width:275px;
+            min-height:75px;
+            text-align: center;
+            font-size: 90%;
+            }
+            .clin-bio-section p{
+            text-align: justify;
+            }
+            .haem-section li .btn-light{
+            background-color:#f2f2f2;
+            min-width:275px;
+            min-height:75px;
+            text-align: center;
+            font-size: 90%;
+            }
+            .haem-section p{
+            text-align: justify;
+            }
+            .micro-section li .btn-light{
+            background-color:#f2f2f2;
+            min-width:275px;
+            min-height:75px;
+            text-align: center;
+            font-size: 90%;
+            }
+            .micro-section p{
+            text-align: justify;
+            }
+        }
+
+        @media screen and (min-width: 768px) and (max-width: 992px) {
+            #hero-section{
+            height:50vh;
+            }
+            .clin-bio-section p{
+            text-align: justify;
+            }
+            .haem-section p{
+            text-align: justify;
+            }
+            .micro-section p{
+            text-align: justify;
+            }
+        }
+        @media screen and (min-width: 992px) and (max-width: 1200px) {
+            #hero-section{
+            height:50vh;
+            }
+            .clin-bio-section li .btn-light{
+            background-color:#f2f2f2;
+            min-width:200px;
+            min-height:75px;
+            text-align: center;
+            font-size: 80%;
+            }
+            .clin-bio-section p{
+            text-align: justify;
+            }
+            .haem-section li .btn-light{
+            background-color:#f2f2f2;
+            min-width:200px;
+            min-height:75px;
+            text-align: center;
+            font-size: 80%;
+            }
+            .haem-section p{
+            text-align: justify;
+            }
+            .micro-section li .btn-light{
+            background-color:#f2f2f2;
+            min-width:200px;
+            min-height:75px;
+            text-align: center;
+            font-size: 80%;
+            }
+            .micro-section p{
+            text-align: justify;
+            }
+        }
