@@ -1,581 +1,604 @@
 @import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@300;400;500;600;700;800;900&family=Open+Sans:wght@300;400;600;700;800&display=swap');
 
 /*--General Styling--*/
-    * {
-        margin: 0;
-        padding: 0;        
-    }
 
-    body {
-    font-family: 'Open Sans', sans-serif;
-    color: #545454;
-    }
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	color: #545454;
+	overflow-x: hidden;
+}
+
 
 /*--Navbar--*/
-   
+
 nav {
-        margin: 0;
-        min-height: 15vh;
-        font-family: 'Exo 2', sans-serif;
-        background-color: #f2f2f2;
-   }
+	margin: 0;
+	min-height: 15vh;
+	font-family: 'Exo 2', sans-serif;
+	background-color: #f2f2f2;
+}
 
-    .navbar-logo a img {
-        border: 1px solid #545454;
-        float: left;
-        margin-left: 20px;
-        margin-top: 20px;
-        }
+.navbar-logo a img {
+	border: 1px solid #545454;
+	float: left;
+	margin-left: 20px;
+	margin-top: 20px;
+}
 
-    .nav-item {
-        padding-right:20px;
-        }
-    
-    .navbar-list-items i{
-        margin-right: 5px;
-    }
+.nav-item {
+	padding-right: 20px;
+}
 
-    .navbar-list-marker {
-        margin: 5px 20px 0px 20px;
-        }
+.navbar-list-items i {
+	margin-right: 5px;
+}
 
-    .navbar-list-items a {
-        color: inherit;
-        text-transform: uppercase;
-        letter-spacing: 3px;
-        font-weight: 500;
-    }
+.navbar-list-marker {
+	margin: 5px 20px 0px 20px;
+}
 
-    .navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover{
-        color:#D99E89;
-    }
+.navbar-list-items a {
+	color: inherit;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	font-weight: 500;
+}
+
+.navbar-light .navbar-nav .nav-link:focus,
+.navbar-light .navbar-nav .nav-link:hover {
+	color: #D99E89;
+}
+
 
 /*--Hero section--*/
 
-    #hero-section{
-        height: 100vh;
-        width: 100vw;
-        overflow: hidden;
-        position: relative;
-        }
+#hero-section {
+	height: 100vh;
+	width: 100vw;
+	overflow: hidden;
+	position: relative;
+}
 
-    .hero-image {
-        width: 100vw;
-        height: 100vh;
-        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.2)), url("/assets/images/heroalt.jpeg");
-        background-size: cover;
-        background-position:center;
-    }
+.hero-image {
+	width: 100vw;
+	height: 100vh;
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.2)), url("../images/heroalt.jpeg");
+	background-size: cover;
+	background-position: center;
+}
 
-    .hero-text{
-        min-width: 20vw;
-        min-height:30vh;
+.hero-text {
+	min-width: 20vw;
+	min-height: 30vh;
+	position: absolute;
+	top: 25%;
+	right: 5%;
+	margin-left: 10px;
+	padding-top: 25px;
+	background-color: #5B89A675;
+	text-align: right;
+}
 
-        position: absolute;
-        top: 25%;
-        right: 5%;
+.hero-text-title {
+	font-family: 'Exo 2', sans-serif;
+	text-transform: uppercase;
+	font-weight: 600;
+	font-size: 45px;
+	color: #f2f2f2;
+	margin-bottom: 50px;
+}
 
-        margin-left: 10px;
-        padding-top: 25px;
+.hero-text h2 {
+	color: #545454;
+	font-size: 40px;
+}
 
-        background-color: #5B89A675;    
-        text-align: right;
-    }
 
-    .hero-text-title{
-        font-family: 'Exo 2', sans-serif;
-        text-transform: uppercase;
-        font-weight: 600;
-        font-size: 45px;
-        color: #f2f2f2;
+/*--Clinical Biochemistry section--*/
 
-        margin-bottom: 50px;
-    }
-    .hero-text h2{
-        color: #545454;
-        font-size: 40px;
-    }
+.clin-bio-section {
+	padding-top: 30px;
+	padding-bottom: 30px;
+	min-height: 300px;
+	background-color: #D99E89;
+}
 
-    /*--Clinical Biochemistry section--*/
+.clin-bio-section li {
+	font-family: 'Exo 2', sans-serif;
+	list-style: none;
+	margin: 30px;
+}
 
-    .clin-bio-section{
-        padding-top: 30px;
-        padding-bottom: 30px;
-        min-height: 300px;
-        background-color: #D99E89;
-    }
+.clin-bio-section li .btn-light {
+	background-color: #f2f2f2;
+	min-width: 325px;
+	text-align: left;
+}
 
-    .clin-bio-section li {
-        font-family: 'Exo 2', sans-serif;
-        list-style: none;
-        margin:30px;
-    }
+.clin-bio-section li i {
+	color: #5B89A6;
+	padding-right: 10px;
+}
 
-    .clin-bio-section li .btn-light{
-        background-color: #f2f2f2;
-        min-width:325px;
-        text-align: left;
-    }
+.clin-bio-section button {
+	font-size: 100%;
+}
 
-    .clin-bio-section li i{
-        color:#5B89A6;
-        padding-right: 10px;
-        
-    }
+.clin-bio-section h2 {
+	padding-top: 30px;
+	padding-bottom: 30px;
+	color: #f2f2f2;
+	font-family: 'Exo 2', sans-serif;
+	text-align: center;
+}
 
-    .clin-bio-section button{
-        font-size: 100%;    
-    }
+.clin-bio-section p {
+	color: #f2f2f2;
+	margin-top: 10px;
+}
 
-    .clin-bio-section h2{
-        padding-top: 30px;
-        padding-bottom:30px;
-        color: #f2f2f2;
-        font-family: 'Exo 2', sans-serif;
-        text-align: center;
-        }
-
-    .clin-bio-section p{
-        color:#f2f2f2;
-        margin-top: 10px;
-    }
-
-    .departmental-information{
-        background-color: #54545425;
-        right:2%
-    }
+.departmental-information {
+	background-color: #54545425;
+	right: 2%
+}
 
 
 /*--Haematology section--*/
 
-    .haem-section{
-        padding-top: 30px;
-        padding-bottom:30px;
-        min-height: 300px;
-        background-color: #8B518C;
-    }
+.haem-section {
+	padding-top: 30px;
+	padding-bottom: 30px;
+	min-height: 300px;
+	background-color: #8B518C;
+}
 
-    .haem-section li {
-        font-family: 'Exo 2', sans-serif;
-        list-style: none;
-        margin: 30px;
-    }
+.haem-section li {
+	font-family: 'Exo 2', sans-serif;
+	list-style: none;
+	margin: 30px;
+}
 
-    .haem-section li .btn-light{
-        background-color: #f2f2f2;
-        min-width: 325px;
-        text-align: left;
-    }
+.haem-section li .btn-light {
+	background-color: #f2f2f2;
+	min-width: 325px;
+	text-align: left;
+}
 
-    .haem-section li i{
-        color:#5B89A6;
-        padding-right: 10px;
-    }
+.haem-section li i {
+	color: #5B89A6;
+	padding-right: 10px;
+}
 
-    .haem-section button{
-        font-size: 100%;    
-    }
-    .haem-section h2{
-        padding-top: 30px;
-        padding-bottom:30px;
-        margin: auto;
-        color: #f2f2f2;
-        font-family: 'Exo 2', sans-serif;
-        text-align: center;
-        }
+.haem-section button {
+	font-size: 100%;
+}
 
-    .haem-section p{
-        margin-top: 20px;
-        margin: auto;
-        color:#f2f2f2;
-    }
+.haem-section h2 {
+	padding-top: 30px;
+	padding-bottom: 30px;
+	margin: auto;
+	color: #f2f2f2;
+	font-family: 'Exo 2', sans-serif;
+	text-align: center;
+}
+
+.haem-section p {
+	margin-top: 20px;
+	margin: auto;
+	color: #f2f2f2;
+}
+
 
 /*--Microbiology section--*/
 
-    .micro-section{
-            padding-top: 30px;
-            padding-bottom:30px;
-            min-height: 300px;
-            background-color: #033859;
-        }
+.micro-section {
+	padding-top: 30px;
+	padding-bottom: 30px;
+	min-height: 300px;
+	background-color: #033859;
+}
 
-        .micro-section li {
-            font-family: 'Exo 2', sans-serif;
-            list-style: none;
-            margin: 30px;
-        }
+.micro-section li {
+	font-family: 'Exo 2', sans-serif;
+	list-style: none;
+	margin: 30px;
+}
 
-        .micro-section li .btn-light{
-            background-color: #f2f2f2;
-            min-width: 325px;
-            text-align: left;
-        }
+.micro-section li .btn-light {
+	background-color: #f2f2f2;
+	min-width: 325px;
+	text-align: left;
+}
 
-        .micro-section li i{
-            color:#5B89A6;
-            padding-right: 10px;
-        }
+.micro-section li i {
+	color: #5B89A6;
+	padding-right: 10px;
+}
 
-        .micro-section button{
-            font-size: 100%;    
-        }
+.micro-section button {
+	font-size: 100%;
+}
 
-        .micro-section h2{
-            padding-top: 30px;
-            padding-bottom:30px;
-            margin: auto;
-            color: #f2f2f2;
-            font-family: 'Exo 2', sans-serif;
-            text-align: center;
-            }
+.micro-section h2 {
+	padding-top: 30px;
+	padding-bottom: 30px;
+	margin: auto;
+	color: #f2f2f2;
+	font-family: 'Exo 2', sans-serif;
+	text-align: center;
+}
 
-        .micro-section p{
-            margin-top: 20px;
-            margin: auto;
-            color:#f2f2f2;
-        }
+.micro-section p {
+	margin-top: 20px;
+	margin: auto;
+	color: #f2f2f2;
+}
+
 
 /*--Footer section--*/
 
-    .footer { font-family: 'Exo 2', sans-serif;
-            background-color:#f2f2f2;}
+.footer {
+	font-family: 'Exo 2', sans-serif;
+	background-color: #f2f2f2;
+}
 
-    .footer-list {
-        list-style: none;
-        display: flex;
-        flex-direction: row-reverse;
-        position: relative;
-        float: left;
-        }
+.footer-list {
+	list-style: none;
+	display: flex;
+	flex-direction: row-reverse;
+	position: relative;
+	float: left;
+}
 
-    .footer-list-right {
-        list-style: none;
-        }
+.footer-list-right {
+	list-style: none;
+}
 
-    .footer-list-marker {margin-top: 25px;}
+.footer-list-marker {
+	margin-top: 25px;
+}
 
-    .footer-list a{
-        color: inherit;
-        text-transform: uppercase;
-        letter-spacing: 3px;
-    }
+.footer-list a {
+	color: inherit;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+}
 
-    .footer-list-right a{
-        color: inherit;
-        text-transform: uppercase;
-        letter-spacing: 3px;
-    }
-    .footer-item{
-        margin: 25px 50px 0px 50px;
-    }
+.footer-list-right a {
+	color: inherit;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+}
 
-    .footer-item-right{
-        position: absolute;
-        right: 50px;
-        margin-top: 25px;
-    }
-    .footer-media{
-        position: absolute;
-        width: 100%;
-        left: 0px;
-    }
+.footer-item {
+	margin: 25px 50px 0px 50px;
+}
 
-    .footer-org{
-        position: absolute;
-        width: 100%;
-        right: 0px;    
-    }
+.footer-item-right {
+	position: absolute;
+	right: 50px;
+	margin-top: 25px;
+}
+
+.footer-media {
+	position: absolute;
+	width: 100%;
+	left: 0px;
+}
+
+.footer-org {
+	position: absolute;
+	width: 100%;
+	right: 0px;
+}
+
 
 /*--Gallery Page--*/
 
-.gallery-images-section{
-    min-height:50vh;
-    background-color: #54545450;
+.gallery-images-section {
+	min-height: 50vh;
+	background-color: #54545450;
 }
 
-.gallery-header{    
-    position: relative;
-    }
-
-.gallery-header-headings{   
-    font-family: 'Exo 2', sans-serif;
-    margin-left: auto;
-    margin-right:auto;
-    margin-bottom: 20px;
-    padding: 10px;
+.gallery-header {
+	position: relative;
 }
 
-.gallery-photo img{
-    margin: 0 auto;
-    margin-bottom: 20px;
-    max-width: 100%;
-    max-height: 400px;
+.gallery-header-headings {
+	font-family: 'Exo 2', sans-serif;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 20px;
+	padding: 10px;
 }
 
-.gallery-photo li{
-    list-style: none;
-    text-align: justify;
+.gallery-photo img {
+	margin: 0 auto;
+	margin-bottom: 20px;
+	max-width: 100%;
+	max-height: 400px;
 }
 
-.gallery-photo li i{
-    padding-right: 5px;
+.gallery-photo li {
+	list-style: none;
+	text-align: justify;
 }
-.gallery-video-section{
-    background-color: #54545450;
+
+.gallery-photo li i {
+	padding-right: 5px;
 }
-.clin-bio-video-player{
-    height: 25vh;
-    border: solid 1px #545454;
+
+.gallery-video-section {
+	background-color: #54545450;
 }
+
+.clin-bio-video-player {
+	height: 25vh;
+	border: solid 1px #545454;
+}
+
 
 /*--Contact Us Page--*/
 
-.contact-form{
-    width:95vw;
-    background-color: #545454;
-    color:#f2f2f2;
-    }
-
-.contact-form-heading{
-    min-height: 33vh;
-    background-color: #5B89A6;
-    text-align: center;
+.contact-form {
+	width: 95vw;
+	background-color: #545454;
+	color: #f2f2f2;
 }
 
-.contact-form-numbers{
-    min-height: 33vh;
-    background-color: #f2f2f2;
+.contact-form-heading {
+	min-height: 33vh;
+	background-color: #5B89A6;
+	text-align: center;
+}
+
+.contact-form-numbers {
+	min-height: 33vh;
+	background-color: #f2f2f2;
 }
 
 .contact-form-heading h1 {
-    text-transform: uppercase;
-    font-family: 'Exo 2', sans-serif;
-    margin-top: 5%;
-    color: #545454;
-    
+	text-transform: uppercase;
+	font-family: 'Exo 2', sans-serif;
+	margin-top: 5%;
+	color: #545454;
 }
-.contact-form-numbers h1{
-    color: #545454;
-    margin: 0 auto;
-    text-align: center;
+
+.contact-form-numbers h1 {
+	color: #545454;
+	margin: 0 auto;
+	text-align: center;
 }
+
 .contact-form-numbers {
-    margin: 0 auto;
+	margin: 0 auto;
 }
+
 .card-img-top {
-    width:50px;
-    padding-top: 10px;
-    margin: 0 auto;
+	width: 50px;
+	padding-top: 10px;
+	margin: 0 auto;
 }
-.card-body{
-    color: #545454;
+
+.card-body {
+	color: #545454;
 }
 
 .card-body h4 {
-    font-family: 'Exo 2', sans-serif;
-    text-transform: uppercase;
-    text-align: center;
+	font-family: 'Exo 2', sans-serif;
+	text-transform: uppercase;
+	text-align: center;
 }
-.card-body li{
-    list-style: none;
+
+.card-body li {
+	list-style: none;
 }
-.contact-form-card{
-    margin: 20px auto;
-    width: 75%;
+
+.contact-form-card {
+	margin: 20px auto;
+	width: 75%;
 }
+
 .contact-form-heading h2 {
-     margin-top: 20px;
-    color: #f2f2f2;
-    }
-
-.contact-form-content{
-    width:50%;
-    margin-top: 20px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-bottom: 20px;
+	margin-top: 20px;
+	color: #f2f2f2;
 }
 
-.contact-form-content label{
-    min-height: 65px;
-    font-size: 90%;
+.contact-form-content {
+	width: 50%;
+	margin-top: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-bottom: 20px;
+}
+
+.contact-form-content label {
+	min-height: 65px;
+	font-size: 90%;
 }
 
 
 /*--Media Queries--*/
 
-    /*--Tablet md breakpoint--*/
-    
 
-    /*--Mobile sm breakpoint--*/
-    @media screen and (max-width: 576px) {
-        .navbar-nav{
-            float: right;
-            text-align: right;            
-            }
-        .nav-item{
-            padding-right: 0;
-            margin-right: 0;
-            }
-        .hero-text-title {
-            font-size: 30px;
-            text-align: center;
-            margin-bottom: 25px;
-            }
-        .hero-text h2{
-            padding-top: 25px;    
-            font-size: 25px;
-            text-align: center;
-            }
+/*--Tablet md breakpoint--*/
 
-        .hero-text{
-                background-color: #5B89A6;
-                top:15%;
-                margin-left: 5%;
-            }
-        #hero-section{
-            background-color: #545454;
-            height:50vh;
-            }
-        .departmental-information{
-            right:0
-        }
-        .clin-bio-section li i{
-            color:#5B89A6;
-            padding-right: 5px;
-            }
-        .list-btn{
-                padding: 2px;
-            }
-        .clin-bio-section li .btn-light{
-            background-color: #f2f2f2;
-            min-width:100px;
-            min-height:100px;
-            text-align: center;
-            font-size: 80%;
-            }
-        .clin-bio-section p{
-            text-align: justify;
-            }
-        .haem-section li .btn-light{
-            background-color: #f2f2f2;
-            min-width:100px;
-            min-height:100px;
-            text-align: center;
-            font-size: 80%;
-            }
-        .haem-section p{
-            text-align: justify;
-            }
-        .micro-section li .btn-light{
-            background-color: #f2f2f2;
-            min-width:100px;
-            min-height:100px;
-            text-align: center;
-            font-size: 80%;
-            }
-        .micro-section p{
-            text-align: justify;   
-            }
-        .footer-list {
-            list-style: none;
-            display: inline-block;
-            position: relative;
-            }
-        .footer-list-right {
-            list-style: none;
-            }
-        }
 
-           @media screen and (min-width: 576px) and (max-width: 768px) {
-            #hero-section{
-            height:50vh;
-            }
-            .clin-bio-section li .btn-light{
-            background-color:#f2f2f2;
-            min-width:275px;
-            min-height:75px;
-            text-align: center;
-            font-size: 90%;
-            }
-            .clin-bio-section p{
-            text-align: justify;
-            }
-            .haem-section li .btn-light{
-            background-color:#f2f2f2;
-            min-width:275px;
-            min-height:75px;
-            text-align: center;
-            font-size: 90%;
-            }
-            .haem-section p{
-            text-align: justify;
-            }
-            .micro-section li .btn-light{
-            background-color:#f2f2f2;
-            min-width:275px;
-            min-height:75px;
-            text-align: center;
-            font-size: 90%;
-            }
-            .micro-section p{
-            text-align: justify;
-            }
-        }
+/*--Mobile sm breakpoint--*/
 
-        @media screen and (min-width: 768px) and (max-width: 992px) {
-            #hero-section{
-            height:50vh;
-            }
-            .clin-bio-section p{
-            text-align: justify;
-            }
-            .haem-section p{
-            text-align: justify;
-            }
-            .micro-section p{
-            text-align: justify;
-            }
-            .departmental-information{
-            background-color: #54545425;
-            right:0
-            }
-        }
-        @media screen and (min-width: 992px) and (max-width: 1200px) {
-            #hero-section{
-            height:50vh;
-            }
-            .clin-bio-section li .btn-light{
-            background-color:#f2f2f2;
-            min-width:175px;
-            min-height:75px;
-            text-align: center;
-            font-size: 80%;
-            }
-            .clin-bio-section p{
-            text-align: justify;
-            }
-            .haem-section li .btn-light{
-            background-color:#f2f2f2;
-            min-width:175px;
-            min-height:75px;
-            text-align: center;
-            font-size: 80%;
-            }
-            .haem-section p{
-            text-align: justify;
-            }
-            .micro-section li .btn-light{
-            background-color:#f2f2f2;
-            min-width:175px;
-            min-height:75px;
-            text-align: center;
-            font-size: 80%;
-            }
-            .micro-section p{
-            text-align: justify;
-            }
-            .contact-form{
-            width:70vw
-            }
-        }
+@media screen and (max-width: 576px) {
+	.navbar-nav {
+		float: right;
+		text-align: right;
+	}
+	.nav-item {
+		padding-right: 0;
+		margin-right: 0;
+	}
+	.hero-text-title {
+		font-size: 30px;
+		text-align: center;
+		margin-bottom: 25px;
+	}
+	.hero-text h2 {
+		padding-top: 25px;
+		font-size: 25px;
+		text-align: center;
+	}
+	.hero-text {
+		background-color: #5B89A6;
+		top: 15%;
+		margin-left: 5%;
+	}
+	#hero-section {
+		background-color: #545454;
+		height: 50vh;
+	}
+	.departmental-information {
+		right: 0
+	}
+	.clin-bio-section li i {
+		color: #5B89A6;
+		padding-right: 5px;
+	}
+	.list-btn {
+		padding: 2px;
+	}
+	.clin-bio-section li .btn-light {
+		background-color: #f2f2f2;
+		min-width: 100px;
+		min-height: 100px;
+		text-align: center;
+		font-size: 80%;
+	}
+	.clin-bio-section p {
+		text-align: justify;
+	}
+	.haem-section li .btn-light {
+		background-color: #f2f2f2;
+		min-width: 100px;
+		min-height: 100px;
+		text-align: center;
+		font-size: 80%;
+	}
+	.haem-section p {
+		text-align: justify;
+	}
+	.micro-section li .btn-light {
+		background-color: #f2f2f2;
+		min-width: 100px;
+		min-height: 100px;
+		text-align: center;
+		font-size: 80%;
+	}
+	.micro-section p {
+		text-align: justify;
+	}
+	.footer-list {
+		list-style: none;
+		display: inline-block;
+		position: relative;
+	}
+	.footer-list-right {
+		list-style: none;
+	}
+}
+
+@media screen and (min-width: 576px) and (max-width: 768px) {
+	#hero-section {
+		height: 50vh;
+	}
+	.clin-bio-section li .btn-light {
+		background-color: #f2f2f2;
+		min-width: 275px;
+		min-height: 75px;
+		text-align: center;
+		font-size: 90%;
+	}
+	.clin-bio-section p {
+		text-align: justify;
+	}
+	.haem-section li .btn-light {
+		background-color: #f2f2f2;
+		min-width: 275px;
+		min-height: 75px;
+		text-align: center;
+		font-size: 90%;
+	}
+	.haem-section p {
+		text-align: justify;
+	}
+	.micro-section li .btn-light {
+		background-color: #f2f2f2;
+		min-width: 275px;
+		min-height: 75px;
+		text-align: center;
+		font-size: 90%;
+	}
+	.micro-section p {
+		text-align: justify;
+	}
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+	#hero-section {
+		height: 50vh;
+	}
+	.clin-bio-section p {
+		text-align: justify;
+	}
+	.haem-section p {
+		text-align: justify;
+	}
+	.micro-section p {
+		text-align: justify;
+	}
+	.departmental-information {
+		background-color: #54545425;
+		right: 0
+	}
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+	#hero-section {
+		height: 50vh;
+	}
+	.clin-bio-section li .btn-light {
+		background-color: #f2f2f2;
+		min-width: 175px;
+		min-height: 75px;
+		text-align: center;
+		font-size: 80%;
+	}
+	.clin-bio-section p {
+		text-align: justify;
+	}
+	.haem-section li .btn-light {
+		background-color: #f2f2f2;
+		min-width: 175px;
+		min-height: 75px;
+		text-align: center;
+		font-size: 80%;
+	}
+	.haem-section p {
+		text-align: justify;
+	}
+	.micro-section li .btn-light {
+		background-color: #f2f2f2;
+		min-width: 175px;
+		min-height: 75px;
+		text-align: center;
+		font-size: 80%;
+	}
+	.micro-section p {
+		text-align: justify;
+	}
+	.contact-form {
+		width: 70vw
+	}
+}
