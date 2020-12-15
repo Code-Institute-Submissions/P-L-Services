@@ -1,7 +1,7 @@
 # **P&L Services Website** 
 ![Logo](assets/images/logo.png)
 
-[View website on GitHub Pages](#)
+[View website on GitHub Pages](https://andrewboyd79.github.io/P-L-Services/)
 
 This P&L services website has been produced by Andrew Boyd as a Milestone 1 Project for the Code Instutute's Full Stack Web Development course.
 
