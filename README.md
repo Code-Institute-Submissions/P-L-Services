@@ -184,23 +184,24 @@ The following features will persist across all website pages to provide a consit
  - Header section
     - Logo - the logo (.png file) will be located in the top left portion of the header and will provide consistent branding.  Clicking on the logo returns the user to the home page.
     - Navbar - the items in the navigation bar will be located on the right hand side of the header and will provide a means of moving between pages. On a mobile device the items will form a dropdown menu.  Clicking each name will link the user to the relevant page.
-    - Search 
 
 - Footer Section
-    - Social Media Links - these icons will be positioned to the right hand side of the footer.  Clicking each will open a new tab and take the user to the appropriate social media platform.
-    - Organisation Links - these links will be positioned to the left side of the footer and will be other organisations associated with the laboratory e.g. parent organisation website.  Clicking the link will open the website in a new tab.
+    - Social Media Links - these icons will be positioned to the left hand side of the footer.  Clicking each will open a new tab and take the user to the appropriate social media platform.
+    - Organisation Links - these links will be positioned to the right side of the footer and will be other organisations associated with the laboratory e.g. parent organisation website.  Clicking the link will open the website in a new tab.
 
 ## Home Page Features
  - The Home Page will feature a large hero image stretching the full width of the screen on tablet/desktop devices which will act as a backdrop for the banner displaying any current issues.  The image will not be displayed on mobile devices to ensure banner info is first content users arrive at.
 
  - The section which follows will display information about the laboratory service (desktop/tablet only) followed by a brief synopsis of each departments work.  On desktop the departmental information will sit side by side across the width of the page, on tablet displays that info will fill the available space with extra information moving down a line and on mobile info will be displayed in a stacked arrangement.
 
- - The next sections give the user details regarding each departments most commonly analysed tests/profiles.  On a desktop device there will be 6 tests listed per department; this number is reduced to 3 on both tablet/mobile views. 
- On desktop/tablet views information will be displayed on the sections within a department; this information will not be displayed on mobile devices. On mobile/tablet devices only one department will be displayed at a time with the others collapsing for clarity - these will expand when the arrow is clicked. 
- On all screen sizes buttons/icons, with the test/profile names, will open as modals, when clicked, to display the relevant information - which will also use the BootStrap grid to organise the content responsively
+ - The next sections give the user details regarding each departments most commonly analysed tests/profiles.  On a desktop device there will be 6 tests listed per department; the size and shape of the buttons will be adjusted on both tablet/mobile views.
+
+ - On all views information will be displayed on the sections within a department; this information will either be displayed to the side or below the tests depending on the device sizing.
+
+ - On all screen sizes buttons/icons, with the test/profile names, will open as modals, when clicked, to display the relevant information - which will also use the BootStrap grid to organise the content responsively
 
 ## Gallery Page Features
-- The Gallery Page will showcase the work of the laboratory and will be a mixture of videos, images and quotes/testimonials.
+- The Gallery Page will showcase the work of the laboratory and will be a mixture of images and informative text.
 
 - On desktop screen size the images will be displayed side by side with accompanying text below each.  The videos will be displayed in a separate section below the images with the links be displayed with the same department icons as Home page.
 
@@ -217,6 +218,9 @@ The following features will persist across all website pages to provide a consit
 ## Features for future releases
 The following features will be added to the website in future releases:
 
+- Search function (on the navbar) to enable the user to search of specific keywards and phrases for easier navigation
+- Accordion feature on mobile displays to hide/reveal sections when not in use
+- Videos, quotes and testimonials will be added to gallery section
 - Full test repetoire for each department
 - Ability to link to information/websites of other laboratories if testing is performed elsewhere 
 - Ability to order stores electronically from the Laboratory
@@ -238,25 +242,50 @@ The following features will be added to the website in future releases:
 ---
 
 # **Deployment**
+The P-L-Services website has been deployed using GitHub Pages. The following  steps, detailed below, were taken during the process:
+
+1. Navigate to the required repository on GitHub (in this case the P-L-Services repository)
+
+2. Click on the Settings option (far most right option) and scroll down to the GitHub Pages section (approximately 2/3 down the settings page)
+
+3. Select the source/branch to be published (in this case the master branch)
+
+4. Click Save
+
+5. When successful a banner indicates that the site has been published and details the address (in this case https://andrewboyd79.github.io/P-L-Services/)
+
+Support information, for this process, can be found on the GitHub Pages section of the GitHub Docs (https://docs.github.com/en/free-pro-team@latest/github/working-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site)
 
 ---
 
 # **Credits**
 
 ## Images
-Hero image - Photo by Karolina Grabowska from Pexels (https://www.pexels.com/photo/close-up-view-of-two-specimens-4047150/)
-Gallery image - Photo by Karolina Grabowska from Pexels (https://www.pexels.com/photo/brown-glass-bottle-with-liquid-and-pipette-4021773/)
-Gallery image - Photo by ThisIsEngineering from Pexels (https://www.pexels.com/photo/scientist-testing-samples-3912368/)
-Gallery image - Photo by Chokniti Khongchum from Pexels (https://www.pexels.com/photo/shallow-focus-photography-of-microscope-2280547/)
-Gallery image - Photo by Edward Jenner from Pexels (https://www.pexels.com/photo/man-doing-a-sample-test-in-the-laboratory-4033148/)
-Gallery image - Photo by Polina Tankilevitch from Pexels (https://www.pexels.com/photo/scientist-in-laboratory-3735705/)
-Gallery image - Photo by CDC from Pexels (https://www.pexels.com/photo/person-doing-an-experiment-3992927/)
-Gallery image - Photo by Polina Tankilevitch from Pexels (https://www.pexels.com/photo/scientist-in-laboratory-3735752/)
-Gallery image - Photo by CDC from Pexels (https://www.pexels.com/photo/red-liquid-in-a-plastic-container-3993210/)
-Gallery image - Photo by Belova59 from Pixabay (https://pixabay.com/users/belova59-10750437/)
-Gallery image - Photo by Belova59 from Pixabay ("https://pixabay.com/users/belova59-10750437/)
-Gallery image - Photo by Belova59 from Pixabay ("https://pixabay.com/users/belova59-10750437/)
-Gallery image Photo by PublicDomainPictures from Pixabay ("https://pixabay.com/users/publicdomainpictures-14/)
+ - Hero image - Photo by Karolina Grabowska from Pexels (https://www.pexels.com/photo/close-up-view-of-two-specimens-4047150/)
+
+- Gallery image - Photo by Karolina Grabowska from Pexels (https://www.pexels.com/photo/brown-glass-bottle-with-liquid-and-pipette-4021773/)
+
+- Gallery image - Photo by ThisIsEngineering from Pexels (https://www.pexels.com/photo/scientist-testing-samples-3912368/)
+
+- Gallery image - Photo by Chokniti Khongchum from Pexels (https://www.pexels.com/photo/shallow-focus-photography-of-microscope-2280547/)
+
+- Gallery image - Photo by Edward Jenner from Pexels (https://www.pexels.com/photo/man-doing-a-sample-test-in-the-laboratory-4033148/)
+
+- Gallery image - Photo by Polina Tankilevitch from Pexels (https://www.pexels.com/photo/scientist-in-laboratory-3735705/)
+
+- Gallery image - Photo by CDC from Pexels (https://www.pexels.com/photo/person-doing-an-experiment-3992927/)
+
+- Gallery image - Photo by Polina Tankilevitch from Pexels (https://www.pexels.com/photo/scientist-in-laboratory-3735752/)
+
+- Gallery image - Photo by CDC from Pexels (https://www.pexels.com/photo/red-liquid-in-a-plastic-container-3993210/)
+
+- Gallery image - Photo by Belova59 from Pixabay (https://pixabay.com/users/belova59-10750437/)
+
+- Gallery image - Photo by Belova59 from Pixabay ("https://pixabay.com/users/belova59-10750437/)
+
+- Gallery image - Photo by Belova59 from Pixabay ("https://pixabay.com/users/belova59-10750437/)
+
+- Gallery image Photo by PublicDomainPictures from Pixabay ("https://pixabay.com/users/publicdomainpictures-14/)
 
 ## Content
 
