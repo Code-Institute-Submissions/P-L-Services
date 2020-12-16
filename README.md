@@ -281,11 +281,15 @@ Support information, for this process, can be found on the GitHub Pages section 
 
 - Gallery image - Photo by Belova59 from Pixabay (https://pixabay.com/users/belova59-10750437/)
 
-- Gallery image - Photo by Belova59 from Pixabay ("https://pixabay.com/users/belova59-10750437/)
+- Gallery image - Photo by Belova59 from Pixabay (https://pixabay.com/users/belova59-10750437/)
 
-- Gallery image - Photo by Belova59 from Pixabay ("https://pixabay.com/users/belova59-10750437/)
+- Gallery image - Photo by Belova59 from Pixabay (https://pixabay.com/users/belova59-10750437/)
 
-- Gallery image Photo by PublicDomainPictures from Pixabay ("https://pixabay.com/users/publicdomainpictures-14/)
+- Gallery image - Photo by PublicDomainPictures from Pixabay (https://pixabay.com/users/publicdomainpictures-14/)
+
+- Gallery image - Photo by PublicDomainPictures from Pixabay (https://pixabay.com/photos/people-scientist-microscope-white-219985/)
+
+- Gallery image - Photo by PublicDomainPictures from Pixabay (https://pixabay.com/photos/test-tube-lab-medical-research-214244/)
 
 ## Content
 
