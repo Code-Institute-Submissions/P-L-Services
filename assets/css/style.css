@@ -302,19 +302,21 @@ nav {
 
 .gallery-images-section {
 	min-height: 50vh;
-	background-color: #54545450;
+	background-color: #545454;
 }
 
 .gallery-header {
-	position: relative;
+    position: relative;
 }
 
 .gallery-header-headings {
-	font-family: 'Exo 2', sans-serif;
-	margin-left: auto;
-	margin-right: auto;
-	margin-bottom: 20px;
-	padding: 10px;
+    font-family: 'Exo 2', sans-serif;
+    color: #f2f2f2;
+    text-align: center;
+	margin: 20px auto;
+    padding: 10px;
+    text-align: center;
+    
 }
 
 .gallery-photo img {
@@ -337,9 +339,14 @@ nav {
 	background-color: #54545450;
 }
 
-.clin-bio-video-player {
-	height: 25vh;
-	border: solid 1px #545454;
+.card{
+    margin-bottom: 50px;
+}
+
+.card-title{
+    min-height: 75px;
+    text-align: justify;
+
 }
 
 
