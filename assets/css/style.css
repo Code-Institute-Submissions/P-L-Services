@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@300;400;500;600;700;800;900&family=Open+Sans:wght@300;400;600;700;800&display=swap');
 
-/*--General Styling--*/
+/*--General Styling (all pages)--*/
 
 * {
 	padding: 0;
@@ -8,15 +8,15 @@
 }
 
 body {
-    font-family: 'Open Sans', sans-serif;
-    background-color: #f2f2f2;
+	font-family: 'Open Sans', sans-serif;
+	background-color: #f2f2f2;
 	color: #545454;
-    overflow-x: hidden;
-    background-color: #f2f2f2;
+	overflow-x: hidden;
+	background-color: #f2f2f2;
 }
 
 
-/*--Navbar--*/
+/*--Navbar Styling (all pages)--*/
 
 nav {
 	margin: 0;
@@ -57,7 +57,7 @@ nav {
 }
 
 
-/*--Hero section--*/
+/*--Hero section Styling (index.html only)--*/
 
 #hero-section {
 	height: 100vh;
@@ -101,7 +101,7 @@ nav {
 }
 
 
-/*--Clinical Biochemistry section--*/
+/*--Clinical Biochemistry section Stylingn (index.html only)--*/
 
 .clin-bio-section {
 	padding-top: 30px;
@@ -128,8 +128,8 @@ nav {
 }
 
 .clin-bio-section button {
-    font-size: 100%;
-    color: #545454;
+	font-size: 100%;
+	color: #545454;
 }
 
 .clin-bio-section h2 {
@@ -151,7 +151,7 @@ nav {
 }
 
 
-/*--Haematology section--*/
+/*--Haematology section Styling (index.html only--*/
 
 .haem-section {
 	padding-top: 30px;
@@ -197,7 +197,7 @@ nav {
 }
 
 
-/*--Microbiology section--*/
+/*--Microbiology section Styling (index.html only)--*/
 
 .micro-section {
 	padding-top: 30px;
@@ -243,7 +243,7 @@ nav {
 }
 
 
-/*--Footer section--*/
+/*--Footer section Styling (all pages)--*/
 
 .footer {
 	font-family: 'Exo 2', sans-serif;
@@ -301,7 +301,7 @@ nav {
 }
 
 
-/*--Gallery Page--*/
+/*--Gallery Page Styling (gallery.html only)--*/
 
 .gallery-images-section {
 	min-height: 50vh;
@@ -309,17 +309,16 @@ nav {
 }
 
 .gallery-header {
-    position: relative;
+	position: relative;
 }
 
 .gallery-header-headings {
-    font-family: 'Exo 2', sans-serif;
-    color: #f2f2f2;
-    text-align: center;
-    margin: 0 auto;
-    padding: 10px;
-    text-align: center;
-    
+	font-family: 'Exo 2', sans-serif;
+	color: #f2f2f2;
+	text-align: center;
+	margin: 0 auto;
+	padding: 10px;
+	text-align: center;
 }
 
 .gallery-photo img {
@@ -338,36 +337,21 @@ nav {
 	padding-right: 5px;
 }
 
-.gallery-video-section {
-	background-color: #54545450;
+.gallery-card {
+	margin-bottom: 50px;
 }
 
-.gallery-card{
-    margin-bottom: 50px;
-}
-.card-img-top {
-	width: 50px;
-	padding-top: 10px;
-	margin: 0 auto;
+.gallery-card-body h5 {
+	margin: 20px auto;
+	font-size: 120%;
+	max-width: 75%;
+	min-height: 75px;
 }
 
-.card-body h5 {
-    margin:20px auto;
-    font-size: 120%;
-    max-width: 75%;
-    min-height: 75px;
-}
 
-.card-body li {
-    list-style: none;
-    font-size: 125%;
-    text-align: center;
-}
-
-/*--Contact Us Page--*/
+/*--Contact Us Page Styling (contact-us.html only)--*/
 
 .contact-form {
-	width: 95vw;
 	background-color: #545454;
 	color: #f2f2f2;
 }
@@ -399,37 +383,50 @@ nav {
 	margin: 0 auto;
 }
 
-.contact-form-clinical-biochemistry{
-    background-color: #D99E89; 
+.contact-form-clinical-biochemistry {
+	background-color: #D99E89;
 }
 
-.contact-form-haematology{
-    background-color: #8B518C;
+.contact-form-haematology {
+	background-color: #8B518C;
 }
 
-.contact-form-microbiology{
-    background-color: #033859;
-    margin: 0 auto;
+.contact-form-microbiology {
+	background-color: #033859;
+	margin: 0 auto;
 }
 
 .contact-form-card {
 	margin: 20px auto;
-    max-width: 80%;
-    min-height:275px;
-    background-color: #f2f2f2;
-
-}
-.card-title{
-    color: #545454;
-    text-align: center;
-    text-transform: uppercase;
-    font-family: 'Exo 2', sans-serif;
-    margin-bottom: 50px;
+	max-width: 80%;
+	min-height: 275px;
+	background-color: #f2f2f2;
 }
 
-.card-body{
-    color: #545454;
+.contact-card-title {
+	color: #545454;
+	text-align: center;
+	text-transform: uppercase;
+	font-family: 'Exo 2', sans-serif;
+	margin-bottom: 50px;
 }
+
+.contact-form-card-img-top {
+	width: 50px;
+	padding-top: 10px;
+	margin: 0 auto;
+}
+
+.contact-card-body {
+	color: #545454;
+}
+
+.contact-card-body li {
+	list-style: none;
+	font-size: 125%;
+	text-align: center;
+}
+
 .contact-form-heading h2 {
 	margin-top: 20px;
 	color: #f2f2f2;
@@ -447,31 +444,31 @@ nav {
 	min-height: 65px;
 	font-size: 90%;
 }
-.contact-form-subheading{
-    margin: 50px auto;
-    text-align: center;
-    color: #f2f2f2;
-    background-color: #5B89A6;
-    max-width: 55%;
-}
-.contact-us-info{
-    margin: 5px auto;
-    max-width: 55%;
+
+.contact-form-subheading {
+	margin: 50px auto;
+	text-align: center;
+	color: #f2f2f2;
+	background-color: #5B89A6;
+	max-width: 55%;
 }
 
-.btn-light{
-    background-color: #D99E89;
-    margin-top: 50px;
-    font-size: 120%;
+.contact-us-info {
+	margin: 5px auto;
+	max-width: 55%;
 }
 
-/*--Media Queries--*/
+.contact-us-button {
+	background-color: #D99E89;
+	margin-top: 50px;
+	font-size: 120%;
+}
 
 
-/*--Tablet md breakpoint--*/
+/*--Media Queries (on all pages)--*/
 
 
-/*--Mobile sm breakpoint--*/
+/*--Styling for devices 576px and under (phones)--*/
 
 @media screen and (max-width: 576px) {
 	.navbar-nav {
@@ -548,34 +545,41 @@ nav {
 	}
 	.footer-list-right {
 		list-style: none;
-    }
-    .footer-media {
-    font-size: 90%;
-    }
-    .footer-org {
-    font-size: 90%;   
-    }
-    .card-img-top {
-	width: 50px;
-	padding-top: 10px;
-	margin: 0 auto;
-    }
-
-    .card-body li {
-    font-size: 80%;
-    }
-    .card-body h4 {
-    font-size: 100%;
-    margin-bottom: 0;
-    }
-    .contact-form-card {
-    max-height:125px;
-    }
-    .card-body h5 {
-    max-width: 90%;
-    min-height: 50px;
-    }
+	}
+	.footer-media {
+		font-size: 90%;
+	}
+	.footer-org {
+		font-size: 90%;
+	}
+	.contact-card-title {
+		margin-top: 20px;
+		margin-bottom: 20px;
+	}
+	.contact-card-body li {
+		font-size: 90%;
+	}
+	.contact-form-card {
+		max-width: 90%;
+		min-height: 200px;
+	}
+	.contact-form-subheading {
+		margin: 20 auto;
+		max-width: 90%;
+		margin-top: 20px;
+		margin-bottom: 20px;
+	}
+	.contact-us-info {
+		margin: 5px auto;
+		max-width: 90%;
+	}
+	.contact-form-heading h2 {
+		margin-top: 20px;
+	}
 }
+
+
+/*--Styling for devices between 576px and 768px (tablets/phone landscape)--*/
 
 @media screen and (min-width: 576px) and (max-width: 768px) {
 	#hero-section {
@@ -610,33 +614,55 @@ nav {
 	}
 	.micro-section p {
 		text-align: justify;
-    }
-    .footer-org li{
-        right:20px;
-    }
-    .contact-form-heading {
-	min-height: 25vh;
-    }
-    .card-body li {
-    font-size: 90%;
-    }
-    .card-body h4 {
-	font-size: 120%;
-    }
-    .card-body h5 {
-    max-width: 100%;
-    min-height: 50px;
-    font-size: 100%;
-    }
+	}
+	.footer-org li {
+		right: 20px;
+	}
+	.gallery-card-body h5 {
+		font-size: 100%;
+		max-width: 90%;
+		min-height: 55px;
+	}
+	.contact-form-heading {
+		min-height: 25vh;
+	}
+	.contact-card-title {
+		margin-top: 20px;
+		margin-bottom: 20px;
+	}
+	.contact-card-body li {
+		font-size: 90%;
+	}
+	.contact-card-body h4 {
+		font-size: 120%;
+		margin-top: 20px;
+	}
+	.contact-form-subheading {
+		margin: 20 auto;
+		max-width: 90%;
+		margin-top: 20px;
+		margin-bottom: 20px;
+	}
+	.contact-us-info {
+		margin: 5px auto;
+		max-width: 90%;
+	}
+	.contact-form-card {
+		max-width: 90%;
+		min-height: 200px;
+	}
 }
 
+
+/*--Styling for devices between 768px and 992px (larger tablets)--*/
+
 @media screen and (min-width: 768px) and (max-width: 992px) {
-    .nav-item {
-    font-size: 80%;
-    padding-right: 0;
-    margin-right: 0;
-}
-    #hero-section {
+	.nav-item {
+		font-size: 80%;
+		padding-right: 0;
+		margin-right: 0;
+	}
+	#hero-section {
 		height: 50vh;
 	}
 	.clin-bio-section p {
@@ -651,25 +677,47 @@ nav {
 	.departmental-information {
 		background-color: #54545425;
 		right: 0
-    }
-    .footer-media {
-    font-size: 80%;
-    }
-    .footer-org {
-    font-size: 80%;
-    }
-    .footer-org li{
-        right:20px;
-    }
-    .card-body h5 {
-    max-width: 120%;
-    min-height: 55px;
-    font-size: 100%;
-    }
-    .contact-form-heading {
-	min-height: 25vh;
-    }
+	}
+	.footer-media {
+		font-size: 80%;
+	}
+	.footer-org {
+		font-size: 80%;
+	}
+	.footer-org li {
+		right: 20px;
+	}
+	.contact-form-heading h1 {
+		margin-top: 15%;
+	}
+	.contact-card-title {
+		margin-top: 20px;
+		margin-bottom: 20px;
+	}
+	.contact-card-body li {
+		font-size: 110%;
+	}
+	.contact-form-card {
+		max-width: 90%;
+		min-height: 200px;
+	}
+	.contact-form-subheading {
+		margin: 50px auto;
+		max-width: 75%;
+		margin-top: 35px;
+		margin-bottom: 35px;
+	}
+	.contact-us-info {
+		margin: 5px auto;
+		max-width: 75%;
+	}
+	.contact-form-heading h2 {
+		margin-top: 20px;
+	}
 }
+
+
+/*--Styling for devices between 992px and 1200px (tablets landscape)--*/
 
 @media screen and (min-width: 992px) and (max-width: 1200px) {
 	#hero-section {
@@ -704,31 +752,38 @@ nav {
 	}
 	.micro-section p {
 		text-align: justify;
-    }
-    .card-body h5 {
-    max-width: 120%;
-    min-height: 75px;
-    font-size: 100%;
-    }
-    .card-body li {
-    font-size: 80%;
-    }
-    .contact-form {
-		width: 95vw
-    }
-    .contact-form-card {
-    max-width: 95%;
-    }
-    .contact-form-heading {
-	min-height: 25vh;
-    }
-        .contact-form-card {
-    max-height:125px;
-    }
-    .footer-media {
-	font-size: 90%;
-    }
-    .footer-org {
-	font-size: 90%;
-    }
+	}
+	.contact-form-heading h1 {
+		margin-top: 15%;
+	}
+	.contact-card-title {
+		margin-top: 20px;
+		margin-bottom: 20px;
+	}
+	.contact-card-body li {
+		font-size: 100%;
+	}
+	.contact-form-card {
+		max-width: 90%;
+		min-height: 250px;
+	}
+	.contact-form-subheading {
+		margin: 50px auto;
+		max-width: 75%;
+		margin-top: 35px;
+		margin-bottom: 35px;
+	}
+	.contact-us-info {
+		margin: 5px auto;
+		max-width: 75%;
+	}
+	.contact-form-heading h2 {
+		margin-top: 50px;
+	}
+	.footer-media {
+		font-size: 90%;
+	}
+	.footer-org {
+		font-size: 90%;
+	}
 }
