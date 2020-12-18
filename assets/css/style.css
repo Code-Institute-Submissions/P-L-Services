@@ -11,7 +11,8 @@ body {
     font-family: 'Open Sans', sans-serif;
     background-color: #f2f2f2;
 	color: #545454;
-	overflow-x: hidden;
+    overflow-x: hidden;
+    background-color: #f2f2f2;
 }
 
 
@@ -446,7 +447,22 @@ nav {
 	min-height: 65px;
 	font-size: 90%;
 }
+.contact-form-subheading{
+    margin: 50px auto;
+    text-align: center;
+    color: #f2f2f2;
+    background-color: #5B89A6;
+    max-width: 55%;
+}
+.contact-us-info{
+    margin: 5px auto;
+    max-width: 55%;
+}
 
+.btn-light{
+    background-color: #D99E89;
+    margin-top: 50px;
+}
 
 /*--Media Queries--*/
 
