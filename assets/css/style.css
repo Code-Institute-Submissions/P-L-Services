@@ -315,7 +315,7 @@ nav {
     font-family: 'Exo 2', sans-serif;
     color: #f2f2f2;
     text-align: center;
-	margin: 20px auto;
+    margin: 0 auto;
     padding: 10px;
     text-align: center;
     
@@ -341,16 +341,27 @@ nav {
 	background-color: #54545450;
 }
 
-.card{
+.gallery-card{
     margin-bottom: 50px;
 }
-
-.card-title{
-    min-height: 75px;
-    text-align: justify;
-
+.card-img-top {
+	width: 50px;
+	padding-top: 10px;
+	margin: 0 auto;
 }
 
+.card-body h5 {
+    margin:20px auto;
+    font-size: 120%;
+    max-width: 75%;
+    min-height: 75px;
+}
+
+.card-body li {
+    list-style: none;
+    font-size: 125%;
+    text-align: center;
+}
 
 /*--Contact Us Page--*/
 
@@ -400,28 +411,6 @@ nav {
     margin: 0 auto;
 }
 
-.card-img-top {
-	width: 50px;
-	padding-top: 10px;
-	margin: 0 auto;
-}
-
-.card-body {
-	color: #545454;
-}
-
-.card-body h4 {
-	font-family: 'Exo 2', sans-serif;
-	text-transform: uppercase;
-    text-align: center;
-}
-
-.card-body li {
-    list-style: none;
-    font-size: 125%;
-    text-align: center;
-}
-
 .contact-form-card {
 	margin: 20px auto;
     max-width: 80%;
@@ -429,7 +418,17 @@ nav {
     background-color: #f2f2f2;
 
 }
+.card-title{
+    color: #545454;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Exo 2', sans-serif;
+    margin-bottom: 50px;
+}
 
+.card-body{
+    color: #545454;
+}
 .contact-form-heading h2 {
 	margin-top: 20px;
 	color: #f2f2f2;
@@ -462,6 +461,8 @@ nav {
 .btn-light{
     background-color: #D99E89;
     margin-top: 50px;
+    color: #f2f2f2;
+    font-size: 120%;
 }
 
 /*--Media Queries--*/
@@ -548,6 +549,12 @@ nav {
 	.footer-list-right {
 		list-style: none;
     }
+    .footer-media {
+    font-size: 90%;
+    }
+    .footer-org {
+    font-size: 90%;   
+    }
     .card-img-top {
 	width: 50px;
 	padding-top: 10px;
@@ -563,6 +570,10 @@ nav {
     }
     .contact-form-card {
     max-height:125px;
+    }
+    .card-body h5 {
+    max-width: 90%;
+    min-height: 50px;
     }
 }
 
@@ -600,6 +611,9 @@ nav {
 	.micro-section p {
 		text-align: justify;
     }
+    .footer-org li{
+        right:20px;
+    }
     .contact-form-heading {
 	min-height: 25vh;
     }
@@ -609,10 +623,20 @@ nav {
     .card-body h4 {
 	font-size: 120%;
     }
+    .card-body h5 {
+    max-width: 100%;
+    min-height: 50px;
+    font-size: 100%;
+    }
 }
 
 @media screen and (min-width: 768px) and (max-width: 992px) {
-	#hero-section {
+    .nav-item {
+    font-size: 80%;
+    padding-right: 0;
+    margin-right: 0;
+}
+    #hero-section {
 		height: 50vh;
 	}
 	.clin-bio-section p {
@@ -627,6 +651,20 @@ nav {
 	.departmental-information {
 		background-color: #54545425;
 		right: 0
+    }
+    .footer-media {
+    font-size: 80%;
+    }
+    .footer-org {
+    font-size: 80%;
+    }
+    .footer-org li{
+        right:20px;
+    }
+    .card-body h5 {
+    max-width: 120%;
+    min-height: 55px;
+    font-size: 100%;
     }
     .contact-form-heading {
 	min-height: 25vh;
@@ -666,7 +704,15 @@ nav {
 	}
 	.micro-section p {
 		text-align: justify;
-	}
+    }
+    .card-body h5 {
+    max-width: 120%;
+    min-height: 75px;
+    font-size: 100%;
+    }
+    .card-body li {
+    font-size: 80%;
+    }
     .contact-form {
 		width: 95vw
     }
@@ -676,13 +722,13 @@ nav {
     .contact-form-heading {
 	min-height: 25vh;
     }
-    .card-body h4 {
-	font-size: 120%;
-    }
-    .card-body li {
-    font-size: 80%;
-    }
-    .contact-form-card {
+        .contact-form-card {
     max-height:125px;
+    }
+    .footer-media {
+	font-size: 90%;
+    }
+    .footer-org {
+	font-size: 90%;
     }
 }
