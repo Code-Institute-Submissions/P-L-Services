@@ -8,7 +8,8 @@
 }
 
 body {
-	font-family: 'Open Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #f2f2f2;
 	color: #545454;
 	overflow-x: hidden;
 }
@@ -364,9 +365,8 @@ nav {
 	text-align: center;
 }
 
-.contact-form-numbers {
-	min-height: 33vh;
-	background-color: #f2f2f2;
+.contact-form-cards {
+	background-color: #545454;
 }
 
 .contact-form-heading h1 {
@@ -386,6 +386,19 @@ nav {
 	margin: 0 auto;
 }
 
+.contact-form-clinical-biochemistry{
+    background-color: #D99E89; 
+}
+
+.contact-form-haematology{
+    background-color: #8B518C;
+}
+
+.contact-form-microbiology{
+    background-color: #033859;
+    margin: 0 auto;
+}
+
 .card-img-top {
 	width: 50px;
 	padding-top: 10px;
@@ -399,16 +412,21 @@ nav {
 .card-body h4 {
 	font-family: 'Exo 2', sans-serif;
 	text-transform: uppercase;
-	text-align: center;
+    text-align: center;
 }
 
 .card-body li {
-	list-style: none;
+    list-style: none;
+    font-size: 125%;
+    text-align: center;
 }
 
 .contact-form-card {
 	margin: 20px auto;
-	width: 75%;
+    max-width: 80%;
+    min-height:275px;
+    background-color: #f2f2f2;
+
 }
 
 .contact-form-heading h2 {
@@ -513,7 +531,23 @@ nav {
 	}
 	.footer-list-right {
 		list-style: none;
-	}
+    }
+    .card-img-top {
+	width: 50px;
+	padding-top: 10px;
+	margin: 0 auto;
+    }
+
+    .card-body li {
+    font-size: 80%;
+    }
+    .card-body h4 {
+    font-size: 100%;
+    margin-bottom: 0;
+    }
+    .contact-form-card {
+    max-height:125px;
+    }
 }
 
 @media screen and (min-width: 576px) and (max-width: 768px) {
@@ -549,7 +583,16 @@ nav {
 	}
 	.micro-section p {
 		text-align: justify;
-	}
+    }
+    .contact-form-heading {
+	min-height: 25vh;
+    }
+    .card-body li {
+    font-size: 90%;
+    }
+    .card-body h4 {
+	font-size: 120%;
+    }
 }
 
 @media screen and (min-width: 768px) and (max-width: 992px) {
@@ -568,7 +611,10 @@ nav {
 	.departmental-information {
 		background-color: #54545425;
 		right: 0
-	}
+    }
+    .contact-form-heading {
+	min-height: 25vh;
+    }
 }
 
 @media screen and (min-width: 992px) and (max-width: 1200px) {
@@ -605,7 +651,22 @@ nav {
 	.micro-section p {
 		text-align: justify;
 	}
-	.contact-form {
-		width: 70vw
-	}
+    .contact-form {
+		width: 95vw
+    }
+    .contact-form-card {
+    max-width: 95%;
+    }
+    .contact-form-heading {
+	min-height: 25vh;
+    }
+    .card-body h4 {
+	font-size: 120%;
+    }
+    .card-body li {
+    font-size: 80%;
+    }
+    .contact-form-card {
+    max-height:125px;
+    }
 }
