@@ -294,5 +294,6 @@ Support information, for this process, can be found on the GitHub Pages section 
 ## Content
 
 ## Code
+- Used the following Stack Overflow content to help recolor the .svg elements (https://stackoverflow.com/questions/22252472/how-to-change-the-color-of-an-svg-element)
 
 ## Acknowledgements
