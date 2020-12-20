@@ -12,7 +12,6 @@ body {
 	background-color: #f2f2f2;
 	color: #545454;
 	overflow-x: hidden;
-	background-color: #f2f2f2;
 }
 
 
@@ -269,7 +268,17 @@ nav {
 .footer-list a {
 	color: inherit;
 	text-transform: uppercase;
-	letter-spacing: 3px;
+    letter-spacing: 3px;
+}
+
+.footer-item a:hover{
+    text-decoration: none;
+    color: #D99E89;
+}
+
+.footer-item-right a:hover{
+    text-decoration: none;
+    color: #D99E89;
 }
 
 .footer-list-right a {
