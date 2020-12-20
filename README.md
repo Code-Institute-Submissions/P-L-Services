@@ -163,7 +163,17 @@ The combination has been checked on Adobe Colour; no potential conflicts have be
 -  The sans serif font Open Sans has been chosen for the body text as it compliments Exo 2; it also has excellent legibility having been optimised for both web and mobile interfaces.  It is available on Google fonts and if it fails will be replaced with a sans serif font within the browser.
 
 ### Icons
-Font Awesome icons from medical and science categories will be used throughout this website.
+The following Font Awesome icons from medical and science categories will be used throughout this website:
+- Bacteria (https://fontawesome.com/icons/bacteria?style=solid)
+- Facebook (https://fontawesome.com/icons/facebook?style=brands)
+- Flask (https://fontawesome.com/icons/flask?style=solid)
+- Hospital (https://fontawesome.com/icons/hospital-symbol?style=solid)
+- Microscope (https://fontawesome.com/icons/microscope?style=solid)
+- Phone (https://fontawesome.com/icons/phone?style=solid)
+- Photo (https://fontawesome.com/icons/phone?style=solid)
+- Twitter (https://fontawesome.com/icons/twitter?style=brands)
+- Vial (https://fontawesome.com/icons/vial?style=solid)
+- Youtube (https://fontawesome.com/icons/youtube?style=brands)
 
 ---
 
@@ -173,9 +183,8 @@ The website will initially be developed as a Minimal Viable Product (MVP) and de
 ## Initial release features
 Based on importance/feasability analysis the following features will be available in the initial release:
 
-- At a glance information on issues affecting laboratory performance/capability to produce results
 - Look up section which provides information on the most common lab tests/profiles, outlines which sample types are suitable, which bottles/containers should be used and what the normal time to result availability should be
-- Gallery page with images and videos of each laboratory department showcasing it's work and 
+- Gallery page with images of each laboratory department showcasing it's work 
 - Contact us page with a form on which the user can specify which department they wish to contact, what they would like to discuss, how they should be contacted and what the urgency of the enquiry
 - The site should have clear navigation section to guide the user and should link to any relevant external websites/social media links of the organisation
 
@@ -184,40 +193,42 @@ The following features will persist across all website pages to provide a consit
  - Header section
     - Logo - the logo (.png file) will be located in the top left portion of the header and will provide consistent branding.  Clicking on the logo returns the user to the home page.
     - Navbar - the items in the navigation bar will be located on the right hand side of the header and will provide a means of moving between pages. On a mobile device the items will form a dropdown menu.  Clicking each name will link the user to the relevant page.
+    - The header will act size responsively and on mobile sized devices will collapse to a menu bar with the links being displayed vertically when selected.
 
 - Footer Section
     - Social Media Links - these icons will be positioned to the left hand side of the footer.  Clicking each will open a new tab and take the user to the appropriate social media platform.
     - Organisation Links - these links will be positioned to the right side of the footer and will be other organisations associated with the laboratory e.g. parent organisation website.  Clicking the link will open the website in a new tab.
+    - The footer elements will resize responsively with elements being displayed vertically on mobile sized devices.
 
 ## Home Page Features
  - The Home Page will feature a large hero image stretching the full width of the screen on tablet/desktop devices which will act as a backdrop for the banner displaying any current issues.  The image will not be displayed on mobile devices to ensure banner info is first content users arrive at.
 
- - The section which follows will display information about the laboratory service (desktop/tablet only) followed by a brief synopsis of each departments work.  On desktop the departmental information will sit side by side across the width of the page, on tablet displays that info will fill the available space with extra information moving down a line and on mobile info will be displayed in a stacked arrangement.
-
- - The next sections give the user details regarding each departments most commonly analysed tests/profiles.  On a desktop device there will be 6 tests listed per department; the size and shape of the buttons will be adjusted on both tablet/mobile views.
+ - The next sections give the user details regarding each departments most commonly analysed tests/profiles.  On all device sizes there will be 6 tests listed per department (these will be departments most commonly requested items); the size and shape of the buttons will be adjusted on both tablet/mobile views to suit the layout.
 
  - On all views information will be displayed on the sections within a department; this information will either be displayed to the side or below the tests depending on the device sizing.
 
- - On all screen sizes buttons/icons, with the test/profile names, will open as modals, when clicked, to display the relevant information - which will also use the BootStrap grid to organise the content responsively
+ - On all screen sizes buttons/icons, with the test/profile names, will open as modals, when clicked, to display the relevant information - which will also use the BootStrap grid to organise the content responsively.
 
 ## Gallery Page Features
-- The Gallery Page will showcase the work of the laboratory and will be a mixture of images and informative text.
+- The Gallery Page will showcase the work of the laboratory and will be a mixture of images and informative text onm BootStrap cards.
 
-- On desktop screen size the images will be displayed side by side with accompanying text below each.  The videos will be displayed in a separate section below the images with the links be displayed with the same department icons as Home page.
+- On desktop screen size the images will be displayed side by side (3 images across) with accompanying explanatory text below each.
 
-- On tablet devices the layout is similar to the desktop with images reduced in size accordingly and overflowing to the next line where necessary.  The videos remain in a separate section beneath the images; however, the icons are not diplayed and the links have moved to below the player.
+- On tablet devices the layout is similar to the desktop with images side by side (2 images across)  and reduced in size accordingly.
 
-- On mobile devices the images are stacked on top of each other with the text accompanying each; the video player remains at the bottom of the page with links underneath.
+- On mobile devices the images are stacked on top of each other (1 image across) with the text accompanying each.
 
 ## Contact Us Page Features
 - The Contact Us Page gives the user some basic information on how to contact each laboratory department and also provides a contact us form to request a callback.
 
-- On desktop/tablet devices a hero image will be used to add some visual interest to the page with accompanying text.  Beneath this will be the contacts for each department; again icons are used to represent departments to add continuity to the design to improve user experience.
+- On desktop/tablet devices a solid colour image will be used to add some visual interest to the page with accompanying text.  Beneath this will be the contacts for each department; again icons are used to represent departments to add continuity to the design to improve user experience.  The form element will take up just over half the width of the page at this size width.  The layout of the form differs from the wireframes to improve readibility and user experience.
 
-- On mobile devices the hero image will not be displayed; however, the text will be displayed.  The layout of the form will be altered to fit better on mobile devices.
+- On mobile devices the layout of the form will be altered to fit better the screen size.  The form layout will remain the same but it will take up more of the available space of the device.
+
 ## Features for future releases
 The following features will be added to the website in future releases:
 
+- At a glance information on issues affecting laboratory performance/capability to produce results (whilst featured on the wireframce diagrams this feature would not be suited to a static webpage and therefore will be released in a later version)
 - Search function (on the navbar) to enable the user to search of specific keywards and phrases for easier navigation
 - Accordion feature on mobile displays to hide/reveal sections when not in use
 - Videos, quotes and testimonials will be added to gallery section
@@ -233,7 +244,13 @@ The following features will be added to the website in future releases:
 ## Languages
 - HTML5 was used to structure and present the content of this website
 - CSS3 was used to style the presentation of the website
-## Libraries
+
+## Frameworks/Libraries/Programs
+- BootStrap (4.5.3) was used to aid with responsive design and increation of some of the project elements (https://getbootstrap.com/)
+- Google Fonts was used to provide the Exo-2 and Open Sans fonts (https://fonts.google.com/)
+- Font Awesome was used to provide the icons for the project (https://fontawesome.com/)
+- GitHub was used to hold the P-L-Services repository (https://github.com/andrewboyd79/P-L-Services)
+- GitPod was used as the dev environment for the project (https://gitpod.io/workspaces/)
 
 ---
 
@@ -261,39 +278,31 @@ Support information, for this process, can be found on the GitHub Pages section 
 # **Credits**
 
 ## Images
- - Hero image - Photo by Karolina Grabowska from Pexels (https://www.pexels.com/photo/close-up-view-of-two-specimens-4047150/)
+The following images have been used for this project:
 
-- Gallery image - Photo by Karolina Grabowska from Pexels (https://www.pexels.com/photo/brown-glass-bottle-with-liquid-and-pipette-4021773/)
+- Hero image - Photo by Karolina Grabowska from Pexels (https://www.pexels.com/photo/close-up-view-of-two-specimens-4047150/)
 
 - Gallery image - Photo by ThisIsEngineering from Pexels (https://www.pexels.com/photo/scientist-testing-samples-3912368/)
 
-- Gallery image - Photo by Chokniti Khongchum from Pexels (https://www.pexels.com/photo/shallow-focus-photography-of-microscope-2280547/)
-
 - Gallery image - Photo by Edward Jenner from Pexels (https://www.pexels.com/photo/man-doing-a-sample-test-in-the-laboratory-4033148/)
 
-- Gallery image - Photo by Polina Tankilevitch from Pexels (https://www.pexels.com/photo/scientist-in-laboratory-3735705/)
+- Gallery image - Photo by Belova59 from Pixabay (https://pixabay.com/photos/laboratory-medical-medicine-hand-3827736/)
 
-- Gallery image - Photo by CDC from Pexels (https://www.pexels.com/photo/person-doing-an-experiment-3992927/)
-
-- Gallery image - Photo by Polina Tankilevitch from Pexels (https://www.pexels.com/photo/scientist-in-laboratory-3735752/)
-
-- Gallery image - Photo by CDC from Pexels (https://www.pexels.com/photo/red-liquid-in-a-plastic-container-3993210/)
-
-- Gallery image - Photo by Belova59 from Pixabay (https://pixabay.com/users/belova59-10750437/)
-
-- Gallery image - Photo by Belova59 from Pixabay (https://pixabay.com/users/belova59-10750437/)
-
-- Gallery image - Photo by Belova59 from Pixabay (https://pixabay.com/users/belova59-10750437/)
-
-- Gallery image - Photo by PublicDomainPictures from Pixabay (https://pixabay.com/users/publicdomainpictures-14/)
+- Gallery image - Photo by Belova59 from Pixabay (https://pixabay.com/photos/laboratory-medical-medicine-hand-3827739/)
 
 - Gallery image - Photo by PublicDomainPictures from Pixabay (https://pixabay.com/photos/people-scientist-microscope-white-219985/)
 
 - Gallery image - Photo by PublicDomainPictures from Pixabay (https://pixabay.com/photos/test-tube-lab-medical-research-214244/)
 
 ## Content
+- Canva.com was used to create the logo.png image
+- Snapseed was used to modify the hero image
 
 ## Code
 - Used the following Stack Overflow content to help recolor the .svg elements (https://stackoverflow.com/questions/22252472/how-to-change-the-color-of-an-svg-element)
+- Example code from BootStrap was used and modified/adapted throughout the project specifically in the modal and form elements
 
 ## Acknowledgements
+- Thanks to my mentor (Aaron Sinnott) for his guidance and help during this project
+- Thanks to the Code Instutute Slack community who helped with various articles, suggestions and problem solves
+- Code Instutute tutor support for their help resolving minor issue with GitPod
