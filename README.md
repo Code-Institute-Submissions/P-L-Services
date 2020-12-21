@@ -231,7 +231,7 @@ The following features will be added to the website in future releases:
 - At a glance information on issues affecting laboratory performance/capability to produce results (whilst featured on the wireframce diagrams this feature would not be suited to a static webpage and therefore will be released in a later version)
 - Search function (on the navbar) to enable the user to search of specific keywards and phrases for easier navigation
 - Accordion feature on mobile displays to hide/reveal sections when not in use
-- Videos, quotes and testimonials will be added to gallery section
+- Videos, quotes, achievements and testimonials will be added to gallery section
 - Full test repetoire for each department
 - Ability to link to information/websites of other laboratories if testing is performed elsewhere 
 - Ability to order stores electronically from the Laboratory
