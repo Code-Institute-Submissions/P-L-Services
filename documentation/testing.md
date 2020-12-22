@@ -1,7 +1,10 @@
 # **P&L Services Website Testing** 
 
-The testing, which follows, has been completed on the initial version of the P&L Services Website between 20th December and 22nd December 2020.  
+The testing, which follows, has been completed on the initial version of the P&L Services Website between 20th December and 22nd December 2020.
+
 All testing was conducted on the site published on GitHub Pages (https://andrewboyd79.github.io/P-L-Services/)
+
+---
 
 ## **Contents**
 1. **[Code Validators](#Code-validators)**
@@ -21,7 +24,7 @@ All testing was conducted on the site published on GitHub Pages (https://andrewb
 ---
 
 # **Code Validators**
-Code validators were used on all .html and .css pages to ensure the code used was valid.
+Code validators were used on all .html and .css pages to ensure the code used, in the P-L Services website, was valid.
 
 ## W3C Markup Validation Service (https://validator.w3.org/)
 
@@ -36,8 +39,7 @@ index.html
 
 gallery.html
 
-- 2x error messages were generated initially.  Both references spaces in .jpg names: these spaces will be removed and the img source updated accordingly.  
-- Retesting indicated no additional issues remain.
+- 2x error messages were generated initially.  Both references spaces in .jpg names
 
 ![gallery.html Markup Validation](tests/gallery.html_MarkupValidation.PNG)
 
@@ -54,8 +56,7 @@ Code was validated by Direct Input by copying and pasting directly in to the val
 
 style.css
 
-- 2x error messages and 1x warning message were generated initially.  Error messages referenced missing units from margins: these margin values were updated accordingly.
-- Retesting indicated no additional issues remain.
+- 2x error messages and 1x warning message were generated initially.  Error messages referenced missing units from margins: these margin values will be updated accordingly.
 - The error message outlined that imported style sheets have not been checked; this error has been noted and no further action will be taken at this time.
 
 ![style.css CSS Validation](tests/style.css_CSSValidation.PNG)
@@ -209,5 +210,11 @@ The website has been tested on the following browsers:
 
 # Bugs
 The following bugs were noted during development of the P-L Services website:
-- 
+- issues getting modal elements to open initially - issue due to missing javascript scripts - resolved by adding relevant javascript links/scripts
+- issues getting alignment of navbar elements initially - issue involved elements not being floated/positioned correctl - resolved in style.css following review of Code Institute teaching modules/Slack
+- issues over setting up Bootstrap grid to operate responsively at different screen sizes - issue was down to lack of knowledge - resolved following review of Code Institute teaching modules/Slack/Youtube videos on the topic
+- issues with colouring of downloaded icon files - issued due to colour of icons being set within .svg file - resolved by amending colour setting within the .svg file following review of Stack Overflow article (https://stackoverflow.com/questions/22252472/how-to-change-the-color-of-an-svg-element)
+- issue with numbers on contact-us.html being displayed in blue on ipad - issue still being investigated 
+- errors generated on testing relating to spaces in an image name - resolved by renaming files in GitPod and amended path within gallery.html
+- errors generated on testing relating to margins being set as Margin: 20 auto - resolved by amending relevant lines in style.css to be Margin: 20px auto; 
 
