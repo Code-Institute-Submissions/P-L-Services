@@ -102,17 +102,13 @@ The following user stories have been developed to outline some of the benefits t
 
 1. As a user I want to find out which sample bottle/type I require so that I can sample my patient correctly
 
-2. As a user I want to be able to tell why my patients blood results are taking longer than normnal so I can discharge patients as quickly as possible
+2. As a user I want to have the most suitable staff member contact me about a laboratory result so that I can treat my patient properly
 
-3. As a user I want to have the most suitable staff member contact me about a laboratory result so that I can treat my patient properly
+3. As a user I want to find out what goes on behind those closed doors in the laboratory so I have confidence in the work they're doing
 
-4. As a user I want to find out what goes on behind those closed doors in the laboratory so I have confidence in the work they're doing
+4. As a business manager I want end users not to be calling asking about sample bottles/test so laboratory staff can concentrate on testing
 
-5. As a business manager I want end users not to be calling asking about sample bottles/test so laboratory staff can concentrate on testing
-
-6. As a business manager I want to showcase the laboratory in the best light so that I can get additional funding
-
-7. As an organisation I want to highlight the achievements of our laboratory and staff so I can demonstrate excellence of service
+5. As a business manager I want to showcase the laboratory in the best light so that I can get additional funding
 
 ## User considerations
 Consideration has been given to the following when developing website which meets the needs of both the business and the users:
@@ -164,16 +160,16 @@ The combination has been checked on Adobe Colour; no potential conflicts have be
 
 ### Icons
 The following Font Awesome icons from medical and science categories will be used throughout this website:
-- Bacteria (https://fontawesome.com/icons/bacteria?style=solid)
-- Facebook (https://fontawesome.com/icons/facebook?style=brands)
-- Flask (https://fontawesome.com/icons/flask?style=solid)
-- Hospital (https://fontawesome.com/icons/hospital-symbol?style=solid)
-- Microscope (https://fontawesome.com/icons/microscope?style=solid)
-- Phone (https://fontawesome.com/icons/phone?style=solid)
-- Photo (https://fontawesome.com/icons/phone?style=solid)
-- Twitter (https://fontawesome.com/icons/twitter?style=brands)
-- Vial (https://fontawesome.com/icons/vial?style=solid)
-- Youtube (https://fontawesome.com/icons/youtube?style=brands)
+- [Bacteria](https://fontawesome.com/icons/bacteria?style=solid)
+- [Facebook](https://fontawesome.com/icons/facebook?style=brands)
+- [Flask](https://fontawesome.com/icons/flask?style=solid)
+- [Hospital](https://fontawesome.com/icons/hospital-symbol?style=solid)
+- [Microscope](https://fontawesome.com/icons/microscope?style=solid)
+- [Phone](https://fontawesome.com/icons/phone?style=solid)
+- [Photo](https://fontawesome.com/icons/phone?style=solid)
+- [Twitter](https://fontawesome.com/icons/twitter?style=brands)
+- [Vial](https://fontawesome.com/icons/vial?style=solid)
+- [Youtube](https://fontawesome.com/icons/youtube?style=brands)
 
 ---
 
@@ -246,15 +242,17 @@ The following features will be added to the website in future releases:
 - CSS3 was used to style the presentation of the website
 
 ## Frameworks/Libraries/Programs
-- BootStrap (4.5.3) was used to aid with responsive design and increation of some of the project elements (https://getbootstrap.com/)
-- Google Fonts was used to provide the Exo-2 and Open Sans fonts (https://fonts.google.com/)
-- Font Awesome was used to provide the icons for the project (https://fontawesome.com/)
-- GitHub was used to hold the P-L-Services repository (https://github.com/andrewboyd79/P-L-Services)
-- GitPod was used as the dev environment for the project (https://gitpod.io/workspaces/)
+- [BootStrap (4.5.3)](https://getbootstrap.com/) was used to aid with responsive design and increation of some of the project elements 
+- [Google Fonts](https://fonts.google.com/) was used to provide the Exo-2 and Open Sans fonts 
+- [Font Awesome](https://fontawesome.com/) was used to provide the icons for the project 
+- [GitHub](https://github.com/andrewboyd79/P-L-Services) was used to hold the P-L-Services repository 
+- [GitPod](https://gitpod.io/workspaces/) was used as the dev environment for the project 
 
 ---
 
 # **Testing**
+
+A separate [testing.md](documentation/testing.md) file has been created to record the testing.
 
 ---
 
@@ -271,7 +269,7 @@ The P-L-Services website has been deployed using GitHub Pages. The following  st
 
 5. When successful a banner indicates that the site has been published and details the address (in this case https://andrewboyd79.github.io/P-L-Services/)
 
-Support information, for this process, can be found on the GitHub Pages section of the GitHub Docs (https://docs.github.com/en/free-pro-team@latest/github/working-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site)
+Support information, for this process, can be found on the [GitHub Pages section](https://docs.github.com/en/free-pro-team@latest/github/working-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site) of the GitHub Docs 
 
 ---
 
@@ -280,26 +278,26 @@ Support information, for this process, can be found on the GitHub Pages section 
 ## Images
 The following images have been used for this project:
 
-- Hero image - Photo by Karolina Grabowska from Pexels (https://www.pexels.com/photo/close-up-view-of-two-specimens-4047150/)
+- [Hero image](https://www.pexels.com/photo/close-up-view-of-two-specimens-4047150/) - Photo by Karolina Grabowska from Pexels 
 
-- Gallery image - Photo by ThisIsEngineering from Pexels (https://www.pexels.com/photo/scientist-testing-samples-3912368/)
+- [Gallery image](https://www.pexels.com/photo/scientist-testing-samples-3912368/) - Photo by ThisIsEngineering from Pexels 
 
-- Gallery image - Photo by Edward Jenner from Pexels (https://www.pexels.com/photo/man-doing-a-sample-test-in-the-laboratory-4033148/)
+- [Gallery image](https://www.pexels.com/photo/man-doing-a-sample-test-in-the-laboratory-4033148/) - Photo by Edward Jenner from Pexels 
 
-- Gallery image - Photo by Belova59 from Pixabay (https://pixabay.com/photos/laboratory-medical-medicine-hand-3827736/)
+- [Gallery image](https://pixabay.com/photos/laboratory-medical-medicine-hand-3827736/) - Photo by Belova59 from Pixabay 
 
-- Gallery image - Photo by Belova59 from Pixabay (https://pixabay.com/photos/laboratory-medical-medicine-hand-3827739/)
+- [Gallery image](https://pixabay.com/photos/laboratory-medical-medicine-hand-3827739/) - Photo by Belova59 from Pixabay 
 
-- Gallery image - Photo by PublicDomainPictures from Pixabay (https://pixabay.com/photos/people-scientist-microscope-white-219985/)
+- [Gallery image](https://pixabay.com/photos/people-scientist-microscope-white-219985/) - Photo by PublicDomainPictures from Pixabay 
 
-- Gallery image - Photo by PublicDomainPictures from Pixabay (https://pixabay.com/photos/test-tube-lab-medical-research-214244/)
+- [Gallery image](https://pixabay.com/photos/test-tube-lab-medical-research-214244/) - Photo by PublicDomainPictures from Pixabay 
 
 ## Content
 - Canva.com was used to create the logo.png image
 - Snapseed was used to modify the hero image
 
 ## Code
-- Used the following Stack Overflow content to help recolor the .svg elements (https://stackoverflow.com/questions/22252472/how-to-change-the-color-of-an-svg-element)
+- Used the following [Stack Overflow content](https://stackoverflow.com/questions/22252472/how-to-change-the-color-of-an-svg-element) to help recolor the .svg elements 
 - Example code from BootStrap was used and modified/adapted throughout the project specifically in the modal and form elements
 
 ## Acknowledgements
