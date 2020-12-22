@@ -13,7 +13,6 @@ All testing was conducted on the site published on GitHub Pages (https://andrewb
 3. **[Responsiveness Testing](#Responsiveness-testing)**
     - [Mobile](#Mobile)
     - [Tablet](#Tablet)
-    - [Desktop](#Desktop)
 
 4. **[Browser Testing](#Browser-testing)**
 
@@ -180,4 +179,35 @@ Outcome: Test unsuccessful
 
 # **Responsiveness Testing**
 
-The Responsiveness of the website has been checked during the user stories testing 
+The website has been designed to be responsive to different screen sizes. The following has been checked on both mobile (android mobile phone running Android 10 and MS Edge mobile version) and tablet (ipad/safari browser) sized devices.
+
+## Mobile
+
+- Header - the navigation elements of the header section collapse under a menu button as expected. Separation markers between items (seen on larger screens) are not visible as expected. Clicking the logo returns the user to the Home page from all pages.  Clicking the Home, Gallery and Contact Us links navigate the user to the respective pages successfully
+- Hero section - hero image is not displayed on mobile as expected and has been replaced with coloured background
+- 3 department sections - buttons are reduced in size with smaller font sizing used; layout has been amended (2x columns of buttons side by side) with the departmental information pushed beneath the buttons filling the entire width of the screen. All buttons previously tested in User stories testing. All buttons size and align correctly
+- Footer - the separation markers have been removed at this screen size as expected. Links display in 2x columns. Clicking each of the social media links opens the relevant website (Facebook, Youtube or Twitter) in new windows as expected.  The hospital link opens a new window with the P-L Services website as this is not yet linked to a larger organisation website.
+
+## Tablet 
+
+- Header - the navigation elements have their font size reduced as expected. Separation markers between items remain as expected. Clicking the logo returns the user to the Home page from all pages.  Clicking the Home, Gallery and Contact Us links navigate the user to the respective pages successfully
+- Hero section - hero image is displayed at this screen size as expected
+- 3 department sections - size of the buttons has been amended to ensure they can be clicked easily on this device size with smaller font sizing used; layout has been amended (2x columns of buttons side by side) with the departmental information pushed beneath the buttons filling the entire width of the screen. All buttons previously tested in User stories testing and size/align correctly
+- Footer - Links display across the page with the font size being reduced to reflect the screen size. Clicking each of the social media links opens the relevant website (Facebook, Youtube or Twitter) in new windows as expected.  The hospital link opens a new window with the P-L Services website as this is not yet linked to a larger organisation website.
+
+---
+
+# **Browser testing**
+The website has been tested on the following browsers:
+- Firefox browser (Version 84.0 (64-bit))
+- Microsoft Edge browser (Version 87.0.664.66 (Official build) (64-bit))
+- Chrome Browser (Version 87.0.4280.88 (Official Build) (64-bit))
+- Safari Browser
+- MS Edge Mobile (Version45.11.24.5118)
+
+---
+
+# Bugs
+The following bugs were noted during development of the P-L Services website:
+- 
+
