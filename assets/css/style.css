@@ -100,7 +100,7 @@ nav {
 }
 
 
-/*--Clinical Biochemistry section Stylingn (index.html only)--*/
+/*--Clinical Biochemistry section Styling (index.html only)--*/
 
 .clin-bio-section {
 	padding-top: 30px;
@@ -147,6 +147,9 @@ nav {
 .departmental-information {
 	background-color: #54545425;
 	right: 2%
+}
+.modal-footer button{
+    color: #f2f2f2;
 }
 
 
