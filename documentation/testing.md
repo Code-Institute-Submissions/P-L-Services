@@ -58,7 +58,7 @@ style.css
 
 - No errors found on style.css
 
-![style.css CSS Validation](tests/style.css_CSSValidation.PNG)
+![style.css  CSS Validation](tests/style.css_CSSValidation.PNG)
 
 ---
 # **User story testing**
