@@ -34,18 +34,18 @@ index.html
 
 - No errors or warnings to show on index.html
 
-![index.html Markup validation](/tests/index.html_MarkupValidation.PNG)
+![index.html Markup validation](tests/index.html_MarkupValidation.PNG)
 
 
 gallery.html
 
-- 2x error messages were generated initially.  Both references spaces in .jpg names
+- No errors or warnings to show on gallery.html
 
 ![gallery.html Markup Validation](tests/gallery.html_MarkupValidation.PNG)
 
 contact-us.html
 
-- 2x error messages were generated initially.  Both referenced datetime value used: having reviewed the relevant documentation datetime is a legal value and so no change will be made at this time.
+- No errors to show on contact-us.html
 
 ![contact-us.html Markup Validation](tests/contact-us.html_MarkupValidation.PNG)
 
@@ -83,6 +83,8 @@ Evidence/Oservations:
     - LFT Notes section related to different assay (index.html will be updated accordingly)
     - Micro Invest pop out details MRSA information (index.html will be updated accordingly)
 
+![User story 1 evidence screenshot](tests/UserStory1EvidenceScreenshot.PNG)
+
 Outcome: Test successful
 
 ---
@@ -102,6 +104,8 @@ Evidence/Oservations:
     - Margin/spcing below words of contact card on desktop is not correct (style.css will be amended accordingly)
     - Color of telephone numbers on ipad is not correct (style.css will be amended accordingly)
 
+![User story 2 evidence screenshot](tests/UserStory2EvidenceScreenshot.PNG)
+
 Outcome: Test successful
 
 ---
@@ -117,6 +121,8 @@ Evidence/Oservations:
 - Gallery images and text checked on desktop (MS-Edge, Chrome and Firefox).
 - Gallery images and text checked on ipad/safari browser.
 - Gallery images and text checked on android mobile phone (running Android 10 and MS Edge mobile version)
+
+![User story 3 evidence screenshot](tests/UserStory3EvidenceScreenshot.PNG)
 
 Outcome: Test successful
 
@@ -134,6 +140,8 @@ Evidence/Oservations:
 - Contact Us form displays correctly on ipad/safari browser.
 - Contact Us form displays correctly on android mobile phone (running Android 10 and MS Edge mobile version)
 
+![User story 4 evidence screenshot](tests/UserStory4EvidenceScreenshot.PNG)
+
 Outcome: Test successful
 
 ---
@@ -147,6 +155,8 @@ Acceptance criteria:
 Evidence/Oservations:
 - The gallery page has high quality images which show the work of the laboratory
 - The website itself displays responsively on all device sizes to aid with the user experience
+
+![USer story 5 evidence screenshot](tests/UserStory5EvidenceScreenshot.PNG)
 
 Outcome: Test successful
 
@@ -189,6 +199,6 @@ The following bugs were noted during development of the P-L Services website:
 - issues over setting up Bootstrap grid to operate responsively at different screen sizes - issue was down to lack of knowledge - resolved following review of Code Institute teaching modules/Slack/Youtube videos on the topic
 - issues with colouring of downloaded icon files - issued due to colour of icons being set within .svg file - resolved by amending colour setting within the .svg file following review of [Stack Overflow article](https://stackoverflow.com/questions/22252472/how-to-change-the-color-of-an-svg-element)
 - issue with numbers on contact-us.html being displayed in blue on ipad - issue still being investigated 
-- errors generated on testing relating to spaces in an image name - resolved by renaming files in GitPod and amended path within gallery.html
-- errors generated on testing relating to margins being set as Margin: 20 auto - resolved by amending relevant lines in style.css to be Margin: 20px auto; 
-
+- errors generated on testing of gallery.html relating to spaces in an image name - resolved by renaming files in GitPod and amended path within gallery.html
+- errors generated on testing of style.css relating to margins being set as Margin: 20 auto - resolved by amending relevant lines in style.css to be Margin: 20px auto; 
+- errors generated on testing of contact-us.html relating to use of datetime type and associated placeholder not being legal - resolved by amended type in contact-us.html
