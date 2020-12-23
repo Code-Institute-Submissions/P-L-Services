@@ -56,8 +56,7 @@ Code was validated by Direct Input by copying and pasting directly in to the val
 
 style.css
 
-- 2x error messages and 1x warning message were generated initially.  Error messages referenced missing units from margins: these margin values will be updated accordingly.
-- The error message outlined that imported style sheets have not been checked; this error has been noted and no further action will be taken at this time.
+- No errors found on style.css
 
 ![style.css CSS Validation](tests/style.css_CSSValidation.PNG)
 
